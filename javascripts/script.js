@@ -1,13 +1,15 @@
 $('.speaker').click(function(src) {
-    var session = src.target.id.replace(/speaker-/, '');
+    var session = (src.target.id === "" ? src.target.parentElement : src.target ).id.replace(/speaker-/, '');
     $('[name=detail-' + session + ']').css('display', 'block');
 });
 $('.speakers li').click(function(src) {
     var session = src.target.id.replace(/img-/, '');
     $('[name=detail-' + session + ']').css('display', 'block');
 });
-$('.cancel').click(function() {
-    $('[id^=overlay]').css('display', 'none');
+$('[id^=overlay]').click(function(src) {
+    if(src.target.id === "overlay" || $.inArray("cancel",src.target.classList) >= 0 ){
+        $('[id^=overlay]').css('display', 'none');
+    }
 });
 $(".h-lane-btn").click(function() {
     $(".timetable td").css('display', 'none');
