@@ -1,5 +1,5 @@
 $('.speaker').click(function(src) {
-    var session = src.target.id.replace(/speaker-/, '');
+    var session = (src.target.id === "" ? src.target.parentElement : src.target ).id.replace(/speaker-/, '');
     $('[name=detail-' + session + ']').css('display', 'block');
 });
 $('.speakers li').click(function(src) {
