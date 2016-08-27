@@ -1,14 +1,21 @@
 $('.speaker').click(function(src) {
     var session = (src.target.id === "" ? src.target.parentElement : src.target ).id.replace(/speaker-/, '');
     $('[name=detail-' + session + ']').css('display', 'block');
+    $('[name=detail-' + session + ']').css('top', $(window).scrollTop());
+    $('#shadow').css('display','block');
 });
 $('.speakers li').click(function(src) {
     var session = src.target.id.replace(/img-/, '');
     $('[name=detail-' + session + ']').css('display', 'block');
 });
+$('#shadow').click(function(src) {
+   $('[id^=overlay]').css('display', 'none');
+   $('#shadow').css('display','none');
+});
 $('[id^=overlay]').click(function(src) {
-    if(src.target.id === "overlay" || $.inArray("cancel",src.target.classList) >= 0 ){
+    if(src.target.id==="overlay" || $.inArray("cancel",src.target.classList)>=0 ){
         $('[id^=overlay]').css('display', 'none');
+        $('#shadow').css('display','none');
     }
 });
 $(".h-lane-btn").click(function() {

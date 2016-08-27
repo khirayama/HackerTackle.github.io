@@ -227,7 +227,7 @@ header {
 		}
 
 		td, th {
-			vertical-align: middle;	
+			vertical-align: middle;
 		}
 
 		td {
@@ -307,7 +307,7 @@ header {
 		content:'';
 		display: block;
 		clear: both;
-	}	
+	}
 	ul {
 		width: 1046px;
 		margin: 0 auto;
@@ -354,6 +354,9 @@ header {
 			border-bottom-color: #008d5a;
 		}
 	}
+}
+.speaker{
+	  cursor: pointer;
 }
 .map-container {
 	position: relative;
@@ -436,11 +439,9 @@ footer {
 	}
 }
 .popup {
-	position: fixed;
 	z-index: 10;
 
 	.popup-text {
-		position: relative;
 		line-height: 1.25;
 		text-align: left;
 
@@ -490,23 +491,33 @@ footer {
 	}
 }
 .cancel {
-	background: url(../images/web2016/popup-close.png);
-	height: 50px;
-	width: 50px;
+	content: "×";
+	font-weight: lighter;
+	font-size: 150%;
+	padding-right: 20px;
 	cursor: pointer;
+	color:#fff;
+
 }
 #overlay {
 	display: none;
-	position: fixed;
-	top: 0;
-	left: 0;
-	height:100%;
-	width: 100%;
+	padding:50px;
+	margin:10px auto;
+	left: 10%;
+	right: 10%;
+	position: absolute;
+	text-align: left;
 	z-index: 5;
-	background: rgba(0,0,0,0.75);
 }
-
-
+#shadow{
+	background: rgba(0,0,0,0.75);
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	z-index: 4;
+}
 
 
 
@@ -546,27 +557,29 @@ footer {
 		display: none;
 	}
 	.popup {
-		width: 1000px;
-		left: 50%;
-		margin-left: -500px;
-		top: 208px;
+		width: 80%;
+		position: absolute;
+		margin: auto;
+		padding: 10px;
+		border: 1px solid rgba(0,200,140,0.5);
+		background-color: rgba(0,64,32,0.2);
+		box-shadow: 0 16px 16px rgba(0,0,0,0.2);
 
 		img {
 			width: 180px;
 			height: 180px;
 			top: 52px;
+			vertical-align:top;
 			left: 0;
-			position: relative;
 		}
 		.popup-text {
 			width: 785px;
 			margin-left: 35px;
-			float: right;
+			display: inline-block;
 			top: 45px;
 		}
 	}
 	.cancel-pc {
-		display: block;
 		position: absolute;
 		top: 0;
 		right: 0;
@@ -699,11 +712,11 @@ footer {
 		bottom: 2px;
 	}
 	.timetable {
-		table, thead, tbody { 
-			display: block; 
+		table, thead, tbody {
+			display: block;
 		}
 		tr, th, td {
-			display: none; 
+			display: none;
 		}
 		.lane-hide-btns {
 			display: block;
@@ -811,7 +824,6 @@ footer {
 		height: 470px;
 	}
 	.overlay {
-		width: 100%;
 		margin: 0 auto;
 	}
 	.overlay-inner {
@@ -848,8 +860,8 @@ footer {
 		}
 	}
 	.popup {
-		width: 80%;
-		margin: 0 10%;
+		margin: 0 auto;
+		padding: 10px;
 		height: 100%;
 		overflow-y: scroll;
 
@@ -891,6 +903,10 @@ footer {
 			display: block;
 			margin: 50px auto;
 		}
+	}
+	#overlay{
+		left:0;
+		right:0;
 	}
 }
 @media only screen and (min-width : 768px) and (max-width : 899px) {
