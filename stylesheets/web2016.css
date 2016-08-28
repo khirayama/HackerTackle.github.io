@@ -417,10 +417,10 @@ footer {
     line-height: 1.25;
     text-align: left; }
     .popup .popup-text h3 {
-      font-size: 48px; }
+      font-size: 30px; }
   .popup p {
     font-family: "Hiragino Kaku Gothic ProN", sans-serif;
-    font-size: 27px; }
+    font-size: 20px; }
   .popup .profile-links {
     font-size: 21px;
     font-family: "HiraKakuProN-W6", sans-serif;
@@ -459,7 +459,6 @@ footer {
 
 #overlay {
   display: none;
-  padding: 50px;
   margin: 10px auto;
   left: 10%;
   right: 10%;
@@ -511,10 +510,20 @@ footer {
     width: 80%;
     position: absolute;
     margin: auto;
-    padding: 10px;
+    padding: 40px;
+    left: 10%;
+    right: 10%;
     border: 1px solid rgba(0, 200, 140, 0.5);
     background-color: rgba(0, 64, 32, 0.2);
     box-shadow: 0 16px 16px rgba(0, 0, 0, 0.2); }
+    .popup h3 {
+      position: absolute;
+      top: 40px;
+      left: 300px; }
+    .popup .profile-links {
+      position: absolute;
+      top: 175px;
+      left: 300px; }
     .popup img {
       width: 180px;
       height: 180px;
@@ -526,6 +535,10 @@ footer {
       margin-left: 35px;
       display: inline-block;
       top: 45px; }
+      .popup .popup-text p {
+        line-height: 150%;
+        margin-top: 15px;
+        margin-bottom: 15px; }
 
   .cancel-pc {
     position: absolute;
@@ -749,7 +762,7 @@ footer {
       height: auto;
       margin-bottom: 30px; }
     .popup .popup-text h3 {
-      font-size: 30px; }
+      font-size: 20px; }
     .popup .popup-text .profile-links {
       font-size: 14px; }
       .popup .popup-text .profile-links .blog:before {
@@ -762,7 +775,10 @@ footer {
         background-size: 26px 21px;
         margin: 0 5px 0 10px; }
     .popup .popup-text p {
-      font-size: 18px; }
+      font-size: 18px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      line-height: 150%; }
     .popup .cancel-pc {
       display: none; }
     .popup .cancel-sp {
@@ -771,7 +787,8 @@ footer {
 
   #overlay {
     left: 0;
-    right: 0; } }
+    right: 0;
+    padding: 10px; } }
 @media only screen and (min-width: 768px) and (max-width: 899px) {
   header .head01intro {
     font-size: 20px;
