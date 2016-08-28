@@ -1,13 +1,16 @@
 $('.speaker').click(function(src) {
     var session = (src.target.id === "" ? src.target.parentElement : src.target ).id.replace(/speaker-/, '');
-    $('[name=detail-' + session + ']').fadeIn(200);
-    $('[name=detail-' + session + ']').css('top', $(window).scrollTop());
-    $('#shadow').fadeIn(100);
+    openSession(session);
 });
 $('.speakers li').click(function(src) {
     var session = src.target.id.replace(/img-/, '');
-    $('[name=detail-' + session + ']').fadeIn(100);
+    openSession(session);
 });
+function openSession(session){
+    $('[name=detail-' + session + ']').fadeIn(200);
+    $('[name=detail-' + session + ']').css('top', $(window).scrollTop());
+    $('#shadow').fadeIn(100);
+}
 $('#shadow').click(function(src) {
    $('[id^=overlay]').fadeOut(400);
    $('#shadow').fadeOut(200);
