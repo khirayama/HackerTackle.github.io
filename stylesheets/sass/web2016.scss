@@ -583,7 +583,6 @@ footer {
 		}
 		.popup-text {
 			margin-left: 35px;
-			display: inline-block;
 			top: 45px;
 			p{
 				line-height: 150%;
@@ -880,10 +879,10 @@ footer {
 		margin: 0 auto;
 		padding: 10px;
 		height: 100%;
-		overflow-y: scroll;
 
 		img {
 			width: 70%;
+			max-width: 180px;
 			height: auto;
 			margin-bottom: 30px;
 		}
