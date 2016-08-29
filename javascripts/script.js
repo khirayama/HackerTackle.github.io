@@ -11,14 +11,16 @@ function openSession(session){
     $('[id=detail-' + session + ']').css('top', $(window).scrollTop());
     $('#shadow').fadeIn(100);
 }
-$('#shadow').click(function(src) {
-   $('[class^=overlay]').fadeOut(400);
+function closeSession(){
+   $('[class=overlay]').fadeOut(400);
    $('#shadow').fadeOut(200);
+}
+$('#shadow').click(function(src) {
+  closeSession();
 });
 $('[class^=overlay]').click(function(src) {
-    if(src.target.id==="overlay" || $.inArray("cancel",src.target.classList)>=0 ){
-      $('[class^=overlay]').fadeOut(400);
-      $('#shadow').fadeOut(200);
+    if(src.target.clasName==="overlay" || $.inArray("cancel",src.target.classList)>=0 ){
+      closeSession();
     }
 });
 $(".h-lane-btn").click(function() {
