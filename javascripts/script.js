@@ -3,7 +3,7 @@ $('.speaker:not(.yet)').click(function(src) {
     openSession(session);
 });
 $('.speakers li').click(function(src) {
-    var session = src.target.id.replace(/img-/, '');
+    var session = (src.target.id === "" ? (src.target.parentElement.id ==="" ? src.target.parentElement.parentElement: src.target.parentElement) : src.target ).id.replace(/img-/, '');
     openSession(session);
 });
 function openSession(session){
