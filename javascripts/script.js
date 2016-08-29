@@ -1,7 +1,4 @@
-$('.speaker').click(function(src) {
-    if($.inArray("yet", src.target.classList)){
-      return;
-    }
+$('.speaker:not(.yet)').click(function(src) {
     var session = (src.target.id === "" ? src.target.parentElement : src.target ).id.replace(/speaker-/, '');
     openSession(session);
 });
