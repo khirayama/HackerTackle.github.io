@@ -7,17 +7,17 @@ $('.speakers li').click(function(src) {
     openSession(session);
 });
 function openSession(session){
-    $('[name=detail-' + session + ']').fadeIn(200);
-    $('[name=detail-' + session + ']').css('top', $(window).scrollTop());
+    $('[id=detail-' + session + ']').fadeIn(200);
+    $('[id=detail-' + session + ']').css('top', $(window).scrollTop());
     $('#shadow').fadeIn(100);
 }
 $('#shadow').click(function(src) {
-   $('[id^=overlay]').fadeOut(400);
+   $('[class^=overlay]').fadeOut(400);
    $('#shadow').fadeOut(200);
 });
-$('[id^=overlay]').click(function(src) {
+$('[class^=overlay]').click(function(src) {
     if(src.target.id==="overlay" || $.inArray("cancel",src.target.classList)>=0 ){
-      $('[id^=overlay]').fadeOut(400);
+      $('[class^=overlay]').fadeOut(400);
       $('#shadow').fadeOut(200);
     }
 });

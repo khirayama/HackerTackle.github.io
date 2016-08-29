@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*
 --------------------------------------------------
   Reset Style
@@ -411,8 +410,11 @@ footer {
   .popup .popup-text {
     line-height: 1.25;
     text-align: left; }
-    .popup .popup-text h3 {
+    .popup .popup-text h1 {
       font-size: 30px; }
+    .popup .popup-text h2 {
+      font-size: 25px;
+      padding: 30px 0px 10px 0px; }
   .popup p {
     font-family: "Hiragino Kaku Gothic ProN", sans-serif;
     font-size: 20px; }
@@ -445,7 +447,6 @@ footer {
       vertical-align: bottom; }
 
 .cancel {
-  content: "×";
   font-weight: lighter;
   font-size: 150%;
   padding-right: 20px;
@@ -507,7 +508,7 @@ footer {
     border: 1px solid rgba(0, 200, 140, 0.5);
     background-color: rgba(0, 64, 32, 0.2);
     box-shadow: 0 16px 16px rgba(0, 0, 0, 0.2); }
-    .popup h3 {
+    .popup h1 {
       position: absolute;
       top: 40px;
       left: 300px; }
@@ -531,7 +532,7 @@ footer {
         margin-top: 15px;
         margin-bottom: 15px; }
 
-  .cancel-pc {
+  .cancel {
     position: absolute;
     top: 0;
     right: 0; }
@@ -755,7 +756,7 @@ footer {
       width: 70%;
       height: auto;
       margin-bottom: 30px; }
-    .popup .popup-text h3 {
+    .popup .popup-text h1 {
       font-size: 20px; }
     .popup .popup-text .profile-links {
       font-size: 14px; }
@@ -773,9 +774,7 @@ footer {
       margin-top: 15px;
       margin-bottom: 15px;
       line-height: 150%; }
-    .popup .cancel-pc {
-      display: none; }
-    .popup .cancel-sp {
+    .popup .cancel {
       display: block;
       margin: 50px auto; }
 
