@@ -36,31 +36,13 @@
 
 <body>
 <nav>
-	<div class="nav-pc">
-		<ul class="nav-top">
-			<li><a href="#sec-concept">CONCEPT</a></li>
-			<li><a href="#sec-timetable">TIMETABLE</a></li>
-			<li><h1><a href="./" class="nav-middle">HACKER TACKLE</a></h1></li>
-			<li><a href="#sec-speakers">SPEAKERS</a></li>
-			<li><a href="http://peatix.com/event/193097" target="_blank" class="nav-btn">参加登録</a></li>
-		</ul>
-	</div>
-	<div class="nav-sp">
-		<div class="nav-top">
-			<!--<a href="#" class="hamburger">
-				<span class="bar"></span>
-				<span class="bar"></span>
-				<span class="bar"></span>
-			</a>-->
-			<h1><a href="./" class="nav-middle">HACKER TACKLE</a></h1>
-			<!--<a href="http://peatix.com/event/193097" target="_blank" class="nav-btn">参加登録</a>-->
-		</div>
-		<!--<ul class="nav-dropdown">
-			<li><a href="#sec-concept">CONCEPT</a></li>
-			<li><a href="#sec-timetable">TIMETABLE</a></li>
-			<li><a href="#sec-speakers">SPEAKERS</a></li>
-		</ul>-->
-	</div>
+	<ul class="nav-top">
+		<li class="pc-only"><a href="#sec-concept">CONCEPT</a></li>
+		<li class="pc-only"><a href="#sec-timetable">TIMETABLE</a></li>
+		<li><h1><a href="./" class="nav-middle"><img src="../images/web2016/nav-title.png" alt="HACKER TACKLE"></a></h1></li>
+		<li class="pc-only"><a href="#sec-speakers">SPEAKERS</a></li>
+		<li class="pc-only"><a href="http://peatix.com/event/193097" target="_blank" class="nav-btn">参加登録</a></li>
+	</ul>
 	<div class="trapezoid"></div>
 </nav>
 
@@ -72,18 +54,16 @@
 	<a href="http://peatix.com/event/193097" target="_blank" class="header-btn">参加登録</a>
 </header>
 
-<section class="info">
-	<a name="sec-concept" class="anchor"></a>
-	<h2>CONCEPT</h2>
+<section class="info anchor" id="sec-concept">
+	<h1>CONCEPT</h1>
 	<p>HackerTackleは、プログラマのための総合技術イベントです。</p>
 	<p>「ハッカー・タックル/博多・来る」の意味を持つイベント名には、多くのハッカーが博多に来て、さまざまな議論をぶつけあう場になればという思いがこめられています。</p>
 	<p>イマのプログラマにとって必要な知識を切り取った、さまざまな技術に関するセッションを用意しています。</p>
 	<p>ぜひ博多に来て、新しい技術を吸収し、議論をぶつけあってみませんか？</p>
 </section>
 
-<section class="timetable">
-	<a name="sec-timetable" class="anchor"></a>
-	<h2>TIMETABLE</h2>
+<section class="timetable anchor" id="sec-timetable">
+	<h1>TIMETABLE</h1>
 	<table>
 	<colgroup>
 		<col class="col-time">
@@ -186,9 +166,8 @@
 	<a href="pdf/2016timetable.pdf" target="_blank" class="download-btn">PDFダウンロード</a>
 </section>
 
-<section class="speakers">
-	<a name="sec-speakers" class="anchor"></a>
-	<h2>SPEAKERS</h2>
+<section class="speakers anchor" id="sec-speakers">
+	<h1>SPEAKERS</h1>
 	<ul>
 		<li><div><img id="img-13-h" src="images/web2016profile/13-h-kis.jpeg" alt="きしだ なおき"><i class="h-lane"></i></div>きしだ なおき</li>
 		<li><div><img id="img-13-k" src="images/web2016profile/13-k-yasukawa.png" alt="安川 健太"><i class="k-lane"></i></div>安川 健太</li>
@@ -214,7 +193,7 @@
 <section class="map-container">
 	<div id="map"></div>
 	<div class="overlay"><div class="overlay-inner">
-		<h2>ACCESS</h2>
+		<h1>ACCESS</h1>
 		<div class="line"></div>
 		<p class="over-txt01">福岡県Ruby・コンテンツ産業<br>振興センター</p>
 		<p class="over-txt02">
@@ -231,7 +210,7 @@
 
 <footer><small>© 2016 HACKER TACKLE</small></footer>
 
-<div id="overlay" name="detail-13-h">
+<section class="overlay" id="detail-13-h">
 <div class="popup">
 	<div class="cancel cancel-sp">×</div>
 	<img src="images/web2016profile/13-h-kis.jpeg" alt="きしだ なおき">
@@ -243,9 +222,9 @@
 	<div class="cancel cancel-pc">×</div>
 	<div class="cancel cancel-sp">×</div>
 </div>
-</div>
+</section>
 
-<div id="overlay" name="detail-13-k">
+<div class="overlay" id="detail-13-k">
 <div class="popup">
 	<div class="cancel cancel-sp">×</div>
 	<img src="images/web2016profile/13-k-yasukawa.png" alt="安川 健太">
@@ -264,7 +243,7 @@
 </div>
 </div>
 
-<div id="overlay" name="detail-13-t">
+<div class="overlay" id="detail-13-t">
 <div class="popup">
 	<div class="cancel cancel-sp">×</div>
 	<img src="images/web2016profile/13-t-nagamine.jpg" alt="長峰 慶三">
@@ -284,7 +263,7 @@
 </div>
 </div>
 
-<div id="overlay" name="detail-14-h">
+<div class="overlay" id="detail-14-h">
 <div class="popup">
 	<div class="cancel cancel-sp">×</div>
 	<img src="images/web2016profile/14-h-yoichiro.jpeg" alt="田中 洋一郎">
@@ -299,7 +278,7 @@
 </div>
 </div>
 
-<div id="overlay" name="detail-14-k">
+<div class="overlay" id="detail-14-k">
 <div class="popup">
 	<div class="cancel cancel-sp">×</div>
 	<img src="images/web2016profile/14-k-urushibara.jpg" alt="漆原 茂">
@@ -314,7 +293,7 @@
 </div>
 </div>
 
-<div id="overlay" name="detail-14-t">
+<div class="overlay" id="detail-14-t">
 <div class="popup">
 	<div class="cancel cancel-sp">×</div>
 	<img src="images/web2016profile/14-t-matsumana.png" alt="@matsumana">
@@ -333,7 +312,7 @@
 </div>
 </div>
 
-<div id="overlay" name="detail-15-h">
+<div class="overlay" id="detail-15-h">
 <div class="popup">
 	<div class="cancel cancel-sp">×</div>
 	<img src="images/web2016profile/15-h-taro.jpg" alt="長澤 太郎">
@@ -352,7 +331,7 @@
 </div>
 </div>
 
-<div id="overlay" name="detail-15-k">
+<div class="overlay" id="detail-15-k">
 <div class="popup">
 	<div class="cancel cancel-sp">×</div>
 	<img src="images/web2016/popup-img.png" alt="奥野 幹也">
@@ -366,7 +345,7 @@
 </div>
 </div>
 
-<div id="overlay" name="detail-15-t">
+<div class="overlay" id="detail-15-t">
 <div class="popup">
 	<div class="cancel cancel-sp">×</div>
 	<img src="images/web2016profile/15-t-colun.jpg" alt="コルン">
@@ -388,7 +367,7 @@
 </div>
 </div>
 
-<div id="overlay" name="detail-16-h">
+<div class="overlay" id="detail-16-h">
 <div class="popup">
 	<div class="cancel cancel-sp"></div>
 	<img src="images/web2016profile/16-h-yokoyama.jpg" alt="横山 隆司">
@@ -405,7 +384,7 @@
 </div>
 
 <!-- TODO 16-k -->
-<div id="overlay" name="detail-16-k">
+<div class="overlay" id="detail-16-k">
 <div class="popup">
 	<div class="cancel cancel-sp">×</div>
 	<img src="images/web2016/popup-img.png" alt="調整中">
@@ -419,7 +398,7 @@
 </div>
 </div>
 
-<div id="overlay" name="detail-16-t">
+<div class="overlay" id="detail-16-t">
 <div class="popup">
 	<div class="cancel cancel-sp">×</div>
 	<img src="images/web2016profile/16-t-takesako.jpg" alt="竹迫 良範">
@@ -438,7 +417,7 @@
 </div>
 </div>
 
-<div id="overlay" name="detail-17-h">
+<div class="overlay" id="detail-17-h">
 <div class="popup">
 	<div class="cancel cancel-sp">×</div>
 	<img src="images/web2016profile/17-h-tarunon.jpg" alt="たるのん">
@@ -455,7 +434,7 @@
 </div>
 </div>
 
-<div id="overlay" name="detail-17-k">
+<div class="overlay" id="detail-17-k">
 <div class="popup" style="top: 10px;">
 	<div class="cancel cancel-sp">×</div>
 	<img src="images/web2016profile/17-k-maki.jpg" alt="槙 俊明">
@@ -482,7 +461,7 @@
 </div>
 </div>
 
-<div id="overlay" name="detail-17-t">
+<div class="overlay" id="detail-17-t">
 <div class="popup">
 	<div class="cancel cancel-sp">×</div>
 	<img src="images/web2016profile/17-t-sato.png" alt="佐藤 一憲">
@@ -502,7 +481,7 @@
 </div>
 </div>
 
-<div id="overlay" name="detail-18-h">
+<div class="overlay" id="detail-18-h">
 <div class="popup">
 	<div class="cancel cancel-sp">×</div>
 	<img src="images/web2016/popup-img.png" alt="田中 孝明">
@@ -520,7 +499,7 @@
 </div>
 </div>
 
-<div id="overlay" name="detail-18-k">
+<div class="overlay" id="detail-18-k">
 <div class="popup">
 	<div class="cancel cancel-sp">×</div>
 	<img src="images/web2016profile/18-k-hamamoto.jpg" alt="濱本 一慶">
@@ -536,7 +515,7 @@
 </div>
 </div>
 
-<div id="overlay" name="detail-18-t">
+<div class="overlay" id="detail-18-t">
 <div class="popup">
 	<div class="cancel cancel-sp">×</div>
 	<img src="images/web2016/popup-img.png" alt="調整中">
