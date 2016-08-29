@@ -189,7 +189,8 @@ header {
     border-top: solid #27ff76 1px;
     font-weight: bold;
     display: inline-block;
-    padding: 9px 70px 12px; }
+    padding: 9px 70px 12px;
+    z-index: 2; }
     header .header-btn:hover {
       background: #23fd20;
       background-image: -webkit-linear-gradient(top, #23fd20, #02ba0b);
