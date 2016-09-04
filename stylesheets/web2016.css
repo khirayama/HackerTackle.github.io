@@ -237,11 +237,14 @@ header {
       letter-spacing: 3px;
       font-size: 22px; }
     .timetable table .h-lane-head {
-      background-color: #5a8000; }
+      background-color: #5a8000;
+      z-index: 2; }
     .timetable table .k-lane-head {
-      background-color: #007307; }
+      background-color: #007307;
+      z-index: 2; }
     .timetable table .t-lane-head {
-      background-color: #008d5a; }
+      background-color: #008d5a;
+      z-index: 2; }
     .timetable table .row-break {
       background-color: #2b3529;
       color: #9fa69e; }
