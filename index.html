@@ -74,25 +74,15 @@
 	<thead>
 	<tr>
 		<th>TIME</th>
-		<th class="h-lane-head"><span>H-LANE</span></th>
-		<th class="k-lane-head"><span>K-LANE</span></th>
-		<th class="t-lane-head"><span>T-LANE</span></th>
+		<th class="h-lane-head"><span>H-LANE #hackt_h</span></th>
+		<th class="k-lane-head"><span>K-LANE #hackt_k</span></th>
+		<th class="t-lane-head"><span>T-LANE #hackt_t</span></th>
 	</tr>
 	</thead>
 	<tbody>
 	<tr class="row-break">
-		<td>12:50 - 13:00</td>
+		<td>12:30 - 13:00</td>
 		<td colspan="3"><strong>受付</strong></td>
-	</tr>
-	<tr>
-		<td>12:50 - 13:00</td>
-		<td><strong>開会宣言</strong></td>
-		<td><strong>開会宣言</strong></td>
-		<td><strong>開会宣言</strong></td>
-	</tr>
-	<tr class="row-break">
-		<td></td>
-		<td colspan="3"><strong>休憩</strong></td>
 	</tr>
 	<tr>
 		<td>13:00 - 13:50</td>
@@ -117,7 +107,7 @@
 	<tr>
 		<td>15:00 - 15:50</td>
 		<td id="speaker-15-h" class="speaker"><strong>今日からKotlinでAndroid開発を始められるようになる話</strong><br>エムスリー株式会社 <br> 長澤 太郎</td>
-		<td id="speaker-15-k" class="speaker"><strong>リレーショナルデータベースとの上手な付き合い方</strong><br>日本オラクル株式会社<br>MySQL Global Business Unit<br>テクニカルアナリスト<br> 奥野幹也</td>
+		<td id="speaker-15-k" class="speaker"><strong>リレーショナルデータベースとの上手な付き合い方</strong><br>日本オラクル株式会社<br> 奥野 幹也</td>
 		<td id="speaker-15-t" class="speaker"><strong>プログラミングコンテストで遊ぼう！</strong><br>システム工房コルン <br> コルン</td>
 	</tr>
 	<tr class="row-break">
@@ -127,7 +117,7 @@
 	<tr>
 		<td>16:00 - 16:50</td>
 		<td id="speaker-16-h" class="speaker"><strong>Go言語の最新事情と並列処理についてのおさらい</strong><br>GDG中国 <br> 横山 隆司</td>
-		<td id="speaker-16-k" class="speaker"><strong>JavaでBytecode weaving！</strong>Realm <br> 山﨑 誠</td>
+		<td id="speaker-16-k" class="speaker"><strong>JavaでBytecode weaving！</strong> <br> Realm <br> 山﨑 誠</td>
 		<td id="speaker-16-t" class="speaker"><strong>ハッカーの思考でQoLを向上させよう！</strong><br>SECCON実行委員長 <br>  竹迫 良範</td>
 	</tr>
 	<tr class="row-break">
@@ -158,9 +148,9 @@
 	</table>
 
 	<div class="lane-hide-btns">
-		<a href="#sec-timetable" class="lane-btn h-lane-btn">H-LANE</a>
-		<a href="#sec-timetable" class="lane-btn k-lane-btn">K-LANE</a>
-		<a href="#sec-timetable" class="lane-btn t-lane-btn">T-LANE</a>
+		<a href="#sec-timetable" class="lane-btn h-lane-btn">H-LANE #hackt_h</a>
+		<a href="#sec-timetable" class="lane-btn k-lane-btn">K-LANE #hackt_k</a>
+		<a href="#sec-timetable" class="lane-btn t-lane-btn">T-LANE #hackt_t</a>
 	</div>
 
 	<a href="pdf/2016timetable.pdf" target="_blank" class="download-btn">PDFダウンロード</a>
@@ -176,7 +166,7 @@
 		<li id="img-14-k"><div><img src="images/web2016profile/14-k-urushibara.jpg" alt="漆原 茂"><i class="k-lane"></i></div>漆原 茂</li>
 		<li id="img-14-t"><div><img src="images/web2016profile/14-t-matsumana.png" alt="@matsumana"><i class="t-lane"></i></div>@matsumana</li>
 		<li id="img-15-h"><div><img src="images/web2016profile/15-h-taro.jpg" alt="長澤 太郎"><i class="h-lane"></i></div>長澤 太郎</li>
-		<li id="img-15-k"><div><img src="images/web2016profile/15-k-okuno.jpg" alt="奥野幹也"><i class="k-lane"></i></div>奥野幹也</li>
+		<li id="img-15-k"><div><img src="images/web2016profile/15-k-okuno.jpg" alt="奥野 幹也"><i class="k-lane"></i></div>奥野 幹也</li>
 		<li id="img-15-t"><div><img src="images/web2016profile/15-t-colun.jpg" alt="コルン"><i class="t-lane"></i></div>コルン</li>
 		<li id="img-16-h"><div><img src="images/web2016profile/16-h-yokoyama.jpg" alt="横山 隆司"><i class="h-lane"></i></div>横山 隆司</li>
 		<li id="img-16-k"><div><img src="images/web2016profile/16-k-yamazaki.png" alt="山崎 誠"><i class="k-lane"></i></div>山崎 誠</li>
@@ -331,6 +321,12 @@
 	<div class="popup-text">
 		<h1>日本オラクル株式会社<br/>MySQL Global Business Unit<br/>テクニカルアナリスト<br/> 奥野 幹也</h1>
 		<h2>リレーショナルデータベースとの上手な付き合い方</h2>
+                <p>データベースは日常的に使うソフトウェアですが、とても深いテーマです。</p>
+<p>データベースは単にパフォーマンスが出れば良いというものではありません。データベースなんてただのデータの入れ物だという意見には、断固反対です。
+    確かにデータの入れ物かも知れませんが、使い方にはコツがあります。</p>
+<p>適切なクエリを記述するためには、リレーショナルモデルに沿った適切なデータベース設計が必須ですし、データを同時アクセスやクラッシュによる破壊から守るには、トランザクションが必須です。
+    それらを使わずともアプリケーションを開発することはできますが、同じ課題を解決するには、同じ理論が必要になりますので、巨大な車輪を再発明することになるでしょう。</p>
+<p>そんな無駄を避けるには、どのようにリレーショナルデータベースを使えばよいでしょうか。本日はリレーショナルデータベースを上手に使う方法について解説します。</p>
 	</div>
 	<div class="cancel">×</div>
 </div>
@@ -426,7 +422,7 @@
 	<div class="cancel cancel-sp">×</div>
 	<img src="images/web2016profile/17-k-maki.jpg" alt="槙 俊明">
 	<div class="popup-text">
-		<h1>Pivotal 槙 俊明</h1>
+		<h1>Pivotal <br> 槙 俊明</h1>
 		<p class="profile-links"><a href="https://blog.ik.am" target="_blank" class="blog">Blog</a>/<a href="https://twitter.com/making" target="_blank" class="twitter">Twitter</a></p>
 		<h2>いますぐ始めるCloud Foundry!<h2>
     <p>サービスを簡単に作るアプリケーションフレームワークが成熟化してきて、サービスを作りやすくなってきています。</p>
