@@ -15,13 +15,9 @@ e.g.
 
 # Compile sass
 
-### Compile
-
-    $ npm run compile-sass
-
 ### Watch
 
-    $ npm run watch-sass
+    $ npm run dev
 
 &nbsp;
 
