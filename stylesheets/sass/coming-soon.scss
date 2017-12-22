@@ -75,6 +75,17 @@ nav {
 	display:flex;
 	align-items:center;
 	justify-content:center;
+
+	.coming-soon-txt {
+		width:384px;
+		height:278px;
+		background:url(/images/2018/pc_comingsoon_txt.png);
+		background-size:384px 278px;
+
+		* {
+			display:none;
+		}
+	}
 }
 footer {
 	position:fixed;
@@ -104,8 +115,11 @@ footer {
 		background-repeat:no-repeat;
 		background-size:cover;
 
-		img {
-			width:175px;
+		.coming-soon-txt {
+			width:172px;
+			height:124px;
+			background:url(/images/2018/sp_comingsoon_txt.png);
+			background-size:172px 124px;
 		}
 	}
 	footer {
