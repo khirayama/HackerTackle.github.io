@@ -7,7 +7,10 @@ Vue.config.productionTip = false
 Vue.use(VueI18n)
 
 const i18n = new VueI18n({
-	locale: 'JA',
+	locale: ((window.navigator.languages && window.navigator.languages[0]) ||
+		window.navigator.language ||
+		window.navigator.userLanguage ||
+		window.navigator.browserLanguage).substring(0, 2).toUpperCase(),
 	messages
 })
 
