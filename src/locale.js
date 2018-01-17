@@ -1,12 +1,12 @@
 module.exports = {
     JA: {
         meta: {
-          desc: '2018/02/17(土)福岡県Ruby・コンテンツ産業振興センターにてプログラマためのコミュニティイベントを開催します',
+          desc: '2018/02/17(土) LINE Fukuoka株式会社さんにてプログラマためのコミュニティイベントを開催します',
           title: 'HACKER TACKLE | あらゆるプログラマのためのコミュニティイベント'
         },
         btn: '参加登録',
         pdf_download: 'PDFダウンロード',
-        access: '福岡県RUBY・コンテンツ産業振興センター',
+        access: 'LINE Fukuoka株式会社',
         header: {
           subtitle: 'あらゆるプログラマのためのコミュニティイベント',
           title: 'HACKER TACKLE ハカタクル？'
@@ -20,8 +20,8 @@ module.exports = {
           beer_bash: 'ビアバッシュ'
         },
         map: {
-          address: '博多区 博多駅東 1丁目17-1 5F',
-          directions: '博多駅筑紫口から徒歩５分、地下鉄博多駅東6番出口徒歩2分、施設の駐車場はご利用いただけません。公共交通機関をご利用ください。',
+          address: '博多区 博多駅中央街8-1 JRJP博多ビル 12F',
+          directions: 'JR九州・JR西日本・福岡市営地下鉄「博多駅」と直結',
           btn: 'Google mapで見る'
         },
         presentations: [
@@ -177,13 +177,13 @@ module.exports = {
     },
     EN: {
         meta: {
-          desc: 'A event for programmers to be held on 2018/02/17(Sat) at the Fukuoka Ruby Contents Industry Promotion Center',
+          desc: 'A event for programmers to be held on 2018/02/17(Sat) at LINE Fukuoka Corporation',
           title: 'HACKER TACKLE | A comprehensive technical event for programmers.'
         },
         btn: 'Register',
         pdf_download: 'Download PDF',
         pdf_url: 'pdf/2016/2016timetable.pdf',
-        access: 'Fukuoka Ruby Contents Industry Promotion Center',
+        access: 'LINE Fukuoka Corporation',
         header: {
           subtitle: 'A comprehensive technical event for programmers.',
           title: 'HACKER TACKLE | Hakata kuru？'
@@ -197,8 +197,8 @@ module.exports = {
           beer_bash: 'Beer bash!'
         },
         map: {
-          address: 'Hakata-ku Hakataeki-higashi 1-17-1 5F',
-          directions: '5 mins walk from Hakata station Chikushi exit. 2 mins walk from exit 6 East, Hakata subway station. Parking is not available. Please use public transport.',
+          address: 'JRJP Hakata Bldg. 12F, 8-1 Hakataekichuogai, Hakata Ward',
+          directions: 'Directly linked to Hakata Station via JR Kyushu and JR Nishinihon train lines as well as the Fukuoka City Subway',
           btn: 'View on Google Maps'
         },
         presentations: [
