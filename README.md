@@ -1,31 +1,20 @@
-# Setup
+# HackerTackle
 
-### Install node
+## Build Setup
 
-e.g.
-- [Official site](https://nodejs.org)
-- [nodebrew](https://github.com/hokaccha/nodebrew)
-- [homebrew](http://brew.sh/)
+``` bash
+# install dependencies
+npm install
 
-### Install node modules
+# serve with hot reload at localhost:8080
+npm run dev
 
-    $ npm install
+# watch sass styles
+npm run styles
 
-&nbsp;
+# build for production with minification
+npm run build
 
-# Compile sass
-
-### Watch
-
-    $ npm run dev
-
-&nbsp;
-
-# Run http server (for dev)
-
-    $ npm run http-server
-     
-    Starting up http-server, serving ./
-    Available on:
-      http://127.0.0.1:8080
-    Hit CTRL-C to stop the server
+# build for production and view the bundle analyzer report
+npm run build --report
+```
