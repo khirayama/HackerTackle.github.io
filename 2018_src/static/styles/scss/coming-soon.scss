@@ -68,7 +68,7 @@ nav {
 	justify-content:center;
 }
 .coming-soon {
-	background:url(static/images/2018/pc_comingsoon.png) center, #000;
+	background:url(static/images/pc_comingsoon.png) center, #000;
 	background-repeat:no-repeat;
 	background-size:cover;
 	height:100vh;
@@ -79,7 +79,7 @@ nav {
 	.coming-soon-txt {
 		width:384px;
 		height:278px;
-		background:url(static/images/2018/pc_comingsoon_txt.png);
+		background:url(static/images/pc_comingsoon_txt.png);
 		background-size:384px 278px;
 
 		* {
@@ -111,14 +111,14 @@ footer {
 		}
 	}
 	.coming-soon {
-		background:url(static/images/2018/sp_comingsoon.png) center, #000;
+		background:url(static/images/sp_comingsoon.png) center, #000;
 		background-repeat:no-repeat;
 		background-size:cover;
 
 		.coming-soon-txt {
 			width:172px;
 			height:124px;
-			background:url(static/images/2018/sp_comingsoon_txt.png);
+			background:url(static/images/sp_comingsoon_txt.png);
 			background-size:172px 124px;
 		}
 	}

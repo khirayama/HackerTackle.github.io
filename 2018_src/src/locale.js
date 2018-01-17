@@ -33,7 +33,7 @@ module.exports = {
                 presenter_name: "matsu_chara",
                 presenter_info: "なし",
                 company: "株式会社FOLIO",
-                img: "static/images/2018/profiles/matsu_chara.jpg",
+                img: "static/images/profiles/matsu_chara.jpg",
                 links: {
                     blog: "#",
                     twitter: "#"
@@ -47,7 +47,7 @@ module.exports = {
                 presenter_name: "Alex Crichton",
                 presenter_info: "None yet",
                 company: "Mozilla Corporation",
-                img: "static/images/2018/profile-dummy.png",
+                img: "static/images/profile-dummy.png",
                 links: {
                     facebook: "#"
                 }  
@@ -60,7 +60,7 @@ module.exports = {
                 presenter_name: "tarunon",
                 presenter_info: "なし",
                 company: "株式会社メルカリ",
-                img: "static/images/2018/profiles/tarunon.jpg",
+                img: "static/images/profiles/tarunon.jpg",
                 links: {
                     twitter: "https://twitter.com/tarunon"
                 }  
@@ -73,7 +73,7 @@ module.exports = {
                 presenter_name: "油井誠 (@myui)",
                 presenter_info: "なし",
                 company: "トレジャーデータ株式会社",
-                img: "static/images/2018/profiles/myui.jpeg",
+                img: "static/images/profiles/myui.jpeg",
                 links: {
                     blog: "#",
                     twitter: "#"
@@ -87,7 +87,7 @@ module.exports = {
                 presenter_name: "五木田 和也(ごきた かずや)",
                 presenter_info: "なし",
                 company: "株式会社ウサギィ",
-                img: "static/images/2018/profiles/kazoo.jpg",
+                img: "static/images/profiles/kazoo.jpg",
                 links: {
                     blog: "http://kazoo04.hatenablog.com/",
                     twitter: "https://twitter.com/kazoo04"
@@ -100,7 +100,7 @@ module.exports = {
                 presentation_info: "なし",
                 presenter_name: "中原",
                 presenter_info: "なし",
-                img: "static/images/2018/profile-dummy.png" 
+                img: "static/images/profile-dummy.png" 
             },
             {
                 id: 6,
@@ -110,7 +110,7 @@ module.exports = {
                 presenter_name: "細川 宣啓",
                 presenter_info: "なし",
                 company: "日本IBM",
-                img: "static/images/2018/profiles/hosokawa.jpg",
+                img: "static/images/profiles/hosokawa.jpg",
                 links: {
                     facebook: "https://www.facebook.com/nobu.dreamstate.hosokawa"
                 }  
@@ -122,7 +122,7 @@ module.exports = {
                 presentation_info: "私達のチームは2016年までメトリクスの活用、スプリント期間の短縮、くじ引きで決めるPOやSM、などのプラクティスを通して改善を繰り返してきました。スクラムガイドもどんどん破りました。このチームはScrumが難しいなんて思っていませんし、誰でも出来ると信じています。チームが開発する製品は大きく変わりましたがScrumが難しいなんてことはありませんでしたし、なによりこのチームのエッセンスを大学生40名に導入したところなんと1週間で1日スプリントをモノにしました。Scrumが難しいのは幻想だったのかもしれません。我々のチームはこういったことを通して2017年にいくつかのプラクティスを確立しました。スプリント期間は1時間へ、チーム内ボトルネックへの対応時間は25分以内を保証、人的リソース活用の損益分岐点を常に意識できる開発プロセスです。結果、1週間でレビューを35回以上、振り返りを30回以上行っています。1週間で改善した項目は最大で20アイテムにおよび、それらのムダ取りによって6ヶ月間で最大2倍の成果を生み出しています。チームのパフォーマンスを最大化するために私達の計画的な学び方、偶発的事象からの学び方などをScrumの文脈でご紹介します。",
                 presenter_name: "きょん",
                 presenter_info: "なし",
-                img: "static/images/2018/profiles/kyon.png",
+                img: "static/images/profiles/kyon.png",
                 links: {
                     twitter: "https://twitter.com/kyon_mm"
                 }  
@@ -135,7 +135,7 @@ module.exports = {
                 presenter_name: "山河 征紀（やまかわ まさき）",
                 presenter_info: "なし",
                 company: "ウルシステムズ株式会社",
-                img: "static/images/2018/profiles/yamakawa.jpg",
+                img: "static/images/profiles/yamakawa.jpg",
                 links: {
                     twitter: "https://twitter.com/masakiyamakawa"
                 }  
@@ -148,7 +148,7 @@ module.exports = {
                 presenter_name: "吉田康久(id:syou6162)",
                 presenter_info: "なし",
                 company: "株式会社はてな",
-                img: "static/images/2018/profiles/syou6162.jpg",
+                img: "static/images/profiles/syou6162.jpg",
                 links: {
                     twitter: "https://twitter.com/syou6162"
                 }  
@@ -161,7 +161,7 @@ module.exports = {
                 presenter_name: "近藤うちお(@udzura)",
                 presenter_info: "なし",
                 company: "GMOペパボ株式会社 技術基盤チーム",
-                img: "static/images/2018/profiles/udzura.jpg" 
+                img: "static/images/profiles/udzura.jpg" 
             },
             {
                 id: 11,
@@ -171,7 +171,7 @@ module.exports = {
                 presenter_name: "はるき",
                 presenter_info: "なし",
                 company: "LINE株式会社",
-                img: "static/images/2018/profile-dummy.png", 
+                img: "static/images/profile-dummy.png", 
             }
         ]
     },
@@ -210,7 +210,7 @@ module.exports = {
                 presenter_name: "matsu_chara",
                 presenter_info: "None yet",
                 company: "FOLIO Co.,Ltd.",
-                img: "static/images/2018/profiles/matsu_chara.jpg",
+                img: "static/images/profiles/matsu_chara.jpg",
                 links: {
                     blog: "#",
                     twitter: "#"
@@ -224,7 +224,7 @@ module.exports = {
                 presenter_name: "Alex Crichton",
                 presenter_info: "None yet",
                 company: "Mozilla Corporation",
-                img: "static/images/2018/profile-dummy.png",
+                img: "static/images/profile-dummy.png",
                 links: {
                     facebook: "#"
                 }
@@ -237,7 +237,7 @@ module.exports = {
                 presenter_name: "tarunon",
                 presenter_info: "None yet",
                 company: "Mercari, Inc.",
-                img: "static/images/2018/profiles/tarunon.jpg",
+                img: "static/images/profiles/tarunon.jpg",
                 links: {
                     twitter: "https://twitter.com/tarunon"
                 }  
@@ -250,7 +250,7 @@ module.exports = {
                 presenter_name: "Makoto Yui",
                 presenter_info: "None yet",
                 company: "Treasure Data Inc.",
-                img: "static/images/2018/profiles/myui.jpeg",
+                img: "static/images/profiles/myui.jpeg",
                 links: {
                     blog: "#",
                     twitter: "#"
@@ -264,7 +264,7 @@ module.exports = {
                 presenter_name: "Kazuya Gokita",
                 presenter_info: "None yet",
                 company: "Usagee Inc.",
-                img: "static/images/2018/profiles/kazoo.jpg",
+                img: "static/images/profiles/kazoo.jpg",
                 links: {
                     blog: "http://kazoo04.hatenablog.com/",
                     twitter: "https://twitter.com/kazoo04"
@@ -277,7 +277,7 @@ module.exports = {
                 presentation_info: "None yet",
                 presenter_name: "Nakahara",
                 presenter_info: "None yet",
-                img: "static/images/2018/profile-dummy.png"  
+                img: "static/images/profile-dummy.png"  
             },
             {
                 id: 6,
@@ -287,7 +287,7 @@ module.exports = {
                 presenter_name: "Nobuhiro Hosokawa",
                 presenter_info: "None yet",
                 company: "IBM Japan",
-                img: "static/images/2018/profiles/hosokawa.jpg",
+                img: "static/images/profiles/hosokawa.jpg",
                 links: {
                     facebook: "https://www.facebook.com/nobu.dreamstate.hosokawa"
                 }
@@ -299,7 +299,7 @@ module.exports = {
                 presentation_info: "None yet",
                 presenter_name: "Kyon",
                 presenter_info: "None yet",
-                img: "static/images/2018/profiles/kyon.png",
+                img: "static/images/profiles/kyon.png",
                 links: {
                     twitter: "https://twitter.com/kyon_mm"
                 }  
@@ -312,7 +312,7 @@ module.exports = {
                 presenter_name: "Masaki Yamakawa",
                 presenter_info: "None yet",
                 company: "UL Systems, Inc.",
-                img: "static/images/2018/profiles/yamakawa.jpg",
+                img: "static/images/profiles/yamakawa.jpg",
                 links: {
                     twitter: "https://twitter.com/masakiyamakawa"
                 }  
@@ -325,7 +325,7 @@ module.exports = {
                 presenter_name: "Yasuhisa Yoshida",
                 presenter_info: "None yet",
                 company: "Hatena Co., Ltd.",
-                img: "static/images/2018/profiles/syou6162.jpg",
+                img: "static/images/profiles/syou6162.jpg",
                 links: {
                     twitter: "https://twitter.com/syou6162"
                 }  
@@ -338,7 +338,7 @@ module.exports = {
                 presenter_name: "Uchio Kondo",
                 presenter_info: "None yet",
                 company: "GMO Pepabo, Inc.",
-                img: "static/images/2018/profiles/udzura.jpg" 
+                img: "static/images/profiles/udzura.jpg" 
             },
             {
                 id: 11,
@@ -348,7 +348,7 @@ module.exports = {
                 presenter_name: "Haruki",
                 presenter_info: "None yet",
                 company: "LINE Corporation",
-                img: "static/images/2018/profile-dummy.png", 
+                img: "static/images/profile-dummy.png", 
             }
         ]
     }

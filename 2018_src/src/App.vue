@@ -2,7 +2,7 @@
 <div id="app">
     <nav id="nav_app">
         <div class="nav-top">
-            <h1><a href="./" class="nav-title"><img src="static/images/2018/nav-title.png" alt="HACKER TACKLE"></a></h1>
+            <h1><a href="./" class="nav-title"><img src="static/images/nav-title.png" alt="HACKER TACKLE"></a></h1>
             <ul>
                 <li class="nav-link"><a href="#concept">CONCEPT</a></li>
                 <li class="nav-link"><a href="#timetable-speakers">TIMETABLE &amp; SPEAKERS</a></li>

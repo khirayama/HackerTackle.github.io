@@ -30,7 +30,7 @@
         </div>
         <a class="apply-btn" href="#" target="_blank">{{ $t("btn") }}</a>
         <h3 class="sub-title">SPONSORS</h3>
-        <img class="line-logo" src="static/images/2018/line.png" alt="LINE">
+        <img class="line-logo" src="static/images/line.png" alt="LINE">
     </div>
 </section>
 </template>

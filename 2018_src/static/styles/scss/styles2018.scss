@@ -211,7 +211,7 @@ nav {
 --------------------------------------------------
 */
 header {
-	background:url(/static/images/2018/main.png) center top, #000101;
+	background:url(../../../static/images/main.png) center top, #000101;
 	background-repeat:no-repeat;
 	position:relative;
 	height:667px;
@@ -255,7 +255,7 @@ header {
 
 @media only screen and (max-width:$sp-breakpoint) {
 	header {
-		background:url(/static/images/2018/main-sp-bg.png) center top, #000101;
+		background:url(../../../static/images/main-sp-bg.png) center top, #000101;
 		background-size:cover;
 		height:405px;
 		margin-top:-1px;
@@ -269,7 +269,7 @@ header {
 		}
 		.header-title {
 			display:block;
-			background:url(/static/images/2018/main-sp-ttl.png);
+			background:url(../../../static/images/main-sp-ttl.png);
 			background-size:410px 154px;
 			height:154px;
 			width:410px;
@@ -304,7 +304,7 @@ header {
 */
 .concept {
 	padding:80px 0 82px;
-	background:url(/static/images/2018/concept-bg.png) center;
+	background:url(../../../static/images/concept-bg.png) center;
 
 	p {
 		max-width:860px;
@@ -322,7 +322,7 @@ header {
 @media only screen and (max-width:$sp-breakpoint) {
 	.concept {
 		padding:43px 0 41px;
-		background:url(/static/images/2018/concept-bg.png) center;
+		background:url(../../../static/images/concept-bg.png) center;
 
 		p {
 			max-width:auto;
@@ -455,7 +455,7 @@ header {
 			display:inline-block;
 			height:22px;
 			width:18px;
-			background:url(/static/images/2018/download-arrow.png);
+			background:url(../../../static/images/download-arrow.png);
 			background-size:18px 22px;
 			margin-left:6px;
 			vertical-align:middle;
@@ -524,7 +524,7 @@ header {
 			&:after {
 				height:11px;
 				width:9px;
-				background:url(/static/images/2018/download-arrow.png);
+				background:url(../../../static/images/download-arrow.png);
 				background-size:9px 11px;
 			}
 		}
@@ -662,7 +662,7 @@ footer {
 			&:after {
 				content:"";
 				display:inline-block;
-				background:url(/static/images/2018/apply-btn-arrow.png);
+				background:url(../../../static/images/apply-btn-arrow.png);
 				background-size:6px 11px;
 				height:11px;
 				width:6px;
@@ -751,13 +751,13 @@ footer {
 				vertical-align:sub;
 			}
 			.blog a:before {
-				background:url(/static/images/2018/icon-blog.png);
+				background:url(../../../static/images/icon-blog.png);
 			}
 			.twitter a:before {
-				background:url(/static/images/2018/icon-twitter.png);
+				background:url(../../../static/images/icon-twitter.png);
 			}
 			.facebook a:before {
-				background:url(/static/images/2018/icon-facebook.png);
+				background:url(../../../static/images/icon-facebook.png);
 			}
 		}
 	}
@@ -777,7 +777,7 @@ footer {
 	right:20px;
 	height:15px;
 	width:15px;
-	background:url(/static/images/2018/popup-close.png);
+	background:url(../../../static/images/popup-close.png);
 }
 
 @media only screen and (max-width:$sp-breakpoint) {
@@ -833,7 +833,7 @@ footer {
 		right:0;
 		height:16px;
 		width:16px;
-		background:url(/static/images/2018/popup-close-sp.png);
+		background:url(../../../static/images/popup-close-sp.png);
 		background-size:16px 16px;
 	}
 }
