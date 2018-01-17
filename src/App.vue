@@ -45,7 +45,7 @@
             <h3 class="map-overlay-title">{{ $t("access") }}</h3>
             <p><strong>{{ $t("map.address") }}</strong></p>
             <p>{{ $t("map.directions") }}</p>
-            <a href="https://goo.gl/maps/ergR2mMKudo" target="_blank" class="map-overlay-btn"><strong>{{ $t("map.btn") }}</strong></a>
+            <a href="https://goo.gl/maps/4U66r3saUvr" target="_blank" class="map-overlay-btn"><strong>{{ $t("map.btn") }}</strong></a>
         </div></div>
     </section>
 
