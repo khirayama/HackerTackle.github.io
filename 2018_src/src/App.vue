@@ -49,7 +49,7 @@
         </div></div>
     </section>
 
-    <footer><small>© 2018 HACKER TACKLE</small></footer>
+    <footer><small>© 2018 {{ $t("footer.organizer") }}</small></footer>
 
     <a href="#" class="sp-apply-btn" target="_blank"><strong>{{ $t("btn") }}</strong></a>
 </div>
