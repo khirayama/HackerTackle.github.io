@@ -108,7 +108,7 @@ module.exports = {
             {
                 id: 6,
                 time: "14:50 - 15:20",
-                presentation_name: "調整中",
+                presentation_name: "Beyond the Debug: テスト、デバッグ、その先の技術へ",
                 presentation_info: "様々な開発の現場ではテストをしたり、レビューを行うのが一般的だと思います。しかし、それらの品質活動を行う際に相手となる「バグ」とはなんでしょうか？バグを説明したり図示したり、そもそも感覚的なバグの対処は、医学で言えば病気を知らずに治療する医師と同種の行動に他なりません。本セッションでは、バグにタックルします。問題は１）バグの定義が存在しないこと、２）バグの表現方法がないこと、３）バグの検出方法が一定ではないことの３点です。これら問題に対して、本セッションでは欠陥の定義スキーマ、欠陥モデル、欠陥兆候因子の検出技法などを説明した上で、これを機械学習を用いて自動的なバグの分析・分類方法についてもデモを交えて解説します。次から次へと生まれては消えゆく先進開発技術を追いかける前に、現在までに経験したバグを後世に残すこと。これが次世代に輝く技術者が最も注力すべき「財産」構築だと考えます。全ての未来の技術者の一助の考となれば幸いです。",
                 presenter_name: "細川 宣啓",
                 presenter_info: "1992年日本アイ・ビー・エム株式会社に入社。SEを経て1999年より同社品質保証組織にてQuality Inspectionチームを立上げ。品質工学および上流フェーズ欠陥検出技術の社内外への展開を手がける。2005年, IBM Raleigh研究所、Austin研究所にて同社汎用機OS,商用Unixの品質管理チームに所属。IBM-QI法のUS展開を行う。現在同社東京基礎研究所にて欠陥の研究を行う傍ら、システム寿命の研究、AI, IoTの品質保証方法の研究およびビジネスサポート等、先進技術を学術・現場の両方で展開中。自称「史上最悪の欠陥エンジニア」",
@@ -174,10 +174,10 @@ module.exports = {
                 time: "17:50 - 18:20",
                 presentation_name: "調整中",
                 presentation_info: "調整中",
-                presenter_name: "調整中",
+                presenter_name: "佐藤 春旗",
                 presenter_info: "なし",
-                company: "",
-                img: "static/images/profile-dummy.png",
+                company: "LINE株式会社",
+                img: "static/images/profiles/haruki.jpg",
             }
         ]
     },
@@ -357,10 +357,10 @@ module.exports = {
                 time: "17:50 - 18:20",
                 presentation_name: "Not yet",
                 presentation_info: "Not yet",
-                presenter_name: "Not yet",
+                presenter_name: "Haruki Sato",
                 presenter_info: "Not yet",
-                company: "",
-                img: "static/images/profile-dummy.png",
+                company: "LINE Corporation",
+                img: "static/images/profiles/haruki.jpg",
             }
         ]
     }
