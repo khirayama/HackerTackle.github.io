@@ -88,11 +88,10 @@ module.exports = {
                 presentation_name: "人工知能の研究者は今なにがアツいと思っているのか",
                 presentation_info: "人工知能といってもその捉え方は人によって様々です。 今で言う「人工知能」を大雑把に捉えるなら、ひとつは「機械学習」、もうひとつは「汎用人工知能」です。 前者は近年のディープラーニングブームによってエンジニアのみなさんにとってもすっかり身近なものになりました。 後者はというとOpenAIや全脳知能アーキテクチャが目指している「人間のような適応能力を持つ”真の”人工知能」ですがこちらはまだ一般的なものではありません(巷では2045年には実現してシンギュラリティが起きるそうですが……！)。 本セッションでは両者の進展を交えつつ、特に後者の汎用人工知能研究において、最前線にいる人々が一体なにを考え、どのような問題にどう取り組んでいるのかについて紹介します。",
                 presenter_name: "五木田 和也(ごきた かずや)",
-                presenter_info: "なし",
+                presenter_info: "",
                 company: "株式会社ウサギィ",
                 img: "static/images/profiles/kazoo.jpg",
                 links: {
-                    blog: "http://kazoo04.hatenablog.com/",
                     twitter: "https://twitter.com/kazoo04"
                 }  
             },
@@ -268,11 +267,10 @@ module.exports = {
                 presentation_name: "For artificial intelligence researchers, what is currently a hot topic",
                 presentation_info: "People vary in their perception of artificial intelligence(AI). However, if we are to broadly define what we know as AI today, we can break it down into the following two categories: 1. machine learning, and 2. artificial general intelligence (AGI). Due to the boom in deep learning in recent years, machine learning has become a very familiar subject for engineers. AGI can be defined as the ‘true’ AI with adaptive abilities akin to a human being, which is what OpenAI and whole brain intelligence architecture are aiming to be. However, development is still in its nascent stage (it’s said that AGI will be realized in 2045 and supposedly Singularity will take place...!) In this session, I will talk about the progress that has been made on both AI and AGI, and in particular, I will show you what people are thinking who are at the forefront of AGI research, as well as what kind of problems they are addressing.",
                 presenter_name: "Kazuya Gokita",
-                presenter_info: "None yet",
+                presenter_info: "",
                 company: "Usagee Inc.",
                 img: "static/images/profiles/kazoo.jpg",
                 links: {
-                    blog: "http://kazoo04.hatenablog.com/",
                     twitter: "https://twitter.com/kazoo04"
                 } 
             },
