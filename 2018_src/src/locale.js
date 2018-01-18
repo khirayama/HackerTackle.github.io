@@ -71,7 +71,7 @@ module.exports = {
                 time: "12:10 - 12:40",
                 presentation_name: "Apache Hivemall meets DigDag: Machine Learning Pipeline in SQL queries",
                 presentation_info: "Apache Hivemallは、日本発のOSSプロジェクトとして初めてApache Incubatorで育成プロジェクトとして認められ、トップレベルプロジェクトへの昇格を目指して開発を進めています。 機械学習の特徴量エンジニアリングや各種学習アルゴリズムをユーザー定義関数（UDF）として実装することで、機械学習の一連の処理をHiveQLやSparkSQLなどSQLクエリによる実現できるのがApache Hivemallの最大の特徴です。 本講演では、前半でHivemallの機能の紹介をし、後半でトレジャーデータが開発するOSSワークフローエンジンDigDagとApache Hivemallを利用した機械学習ワークフローの実例を紹介します。 ワークフローエンジンとの組合せにより複雑な機械学習ワークフローをどのようにプロダクション環境に展開したら良いかの一例を示します。",
-                presenter_name: "油井誠 (@myui)",
+                presenter_name: "油井 誠 (@myui)",
                 presenter_info: "",
                 company: "トレジャーデータ株式会社",
                 img: "static/images/profiles/myui.jpeg",
