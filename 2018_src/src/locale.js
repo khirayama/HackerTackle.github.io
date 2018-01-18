@@ -40,7 +40,7 @@ module.exports = {
                 links: {
                     blog: "#",
                     twitter: "#"
-                }   
+                }
             },
             {
                 id: 1,
@@ -53,7 +53,7 @@ module.exports = {
                 img: "static/images/profile-dummy.png",
                 links: {
                     facebook: "#"
-                }  
+                }
             },
             {
                 id: 2,
@@ -66,7 +66,7 @@ module.exports = {
                 img: "static/images/profiles/tarunon.jpg",
                 links: {
                     twitter: "https://twitter.com/tarunon"
-                }  
+                }
             },
             {
                 id: 3,
@@ -80,7 +80,7 @@ module.exports = {
                 links: {
                     blog: "#",
                     twitter: "#"
-                }  
+                }
             },
             {
                 id: 4,
@@ -94,7 +94,7 @@ module.exports = {
                 links: {
                     blog: "http://kazoo04.hatenablog.com/",
                     twitter: "https://twitter.com/kazoo04"
-                }  
+                }
             },
             {
                 id: 5,
@@ -103,20 +103,20 @@ module.exports = {
                 presentation_info: "なし",
                 presenter_name: "中原",
                 presenter_info: "なし",
-                img: "static/images/profile-dummy.png" 
+                img: "static/images/profile-dummy.png"
             },
             {
                 id: 6,
                 time: "14:50 - 15:20",
-                presentation_name: "テスト",
-                presentation_info: "様々な開発の現場ではテストをしたり、レビューを行うのが一般的だと思います。しかし、それらの品質活動を行う際に相手となる「バグ」とはなんでしょうか？バグを説明したり図示したり、そもそも感覚的なバグの対処は、医学で言えば病気を知らずに治療する医師と同種の行動に他なりません。本セッションでは、バグにタックルします。問題は１）バグの定義が存在しないこと、２）バグの表現方法がないこと、３）バグの検出方法が一定ではないことの３点です。これら問題に対して、本セッションでは欠陥の定義スキーマ、欠陥モデル、欠陥聴講因子の検出技法などを説明した上で、これを機械学習を用いて自動的なバグの分析・分類方法についてもデモを交えて解説します。次から次へと生まれては消えゆく先進開発技術を追いかける前に、現在までに経験したバグを後世に残すこと。これが次世代に輝く技術者が最も注力すべき「財産」構築だと考えます。全ての未来の技術者の一助の考となれば幸いです。",
+                presentation_name: "調整中",
+                presentation_info: "様々な開発の現場ではテストをしたり、レビューを行うのが一般的だと思います。しかし、それらの品質活動を行う際に相手となる「バグ」とはなんでしょうか？バグを説明したり図示したり、そもそも感覚的なバグの対処は、医学で言えば病気を知らずに治療する医師と同種の行動に他なりません。本セッションでは、バグにタックルします。問題は１）バグの定義が存在しないこと、２）バグの表現方法がないこと、３）バグの検出方法が一定ではないことの３点です。これら問題に対して、本セッションでは欠陥の定義スキーマ、欠陥モデル、欠陥兆候因子の検出技法などを説明した上で、これを機械学習を用いて自動的なバグの分析・分類方法についてもデモを交えて解説します。次から次へと生まれては消えゆく先進開発技術を追いかける前に、現在までに経験したバグを後世に残すこと。これが次世代に輝く技術者が最も注力すべき「財産」構築だと考えます。全ての未来の技術者の一助の考となれば幸いです。",
                 presenter_name: "細川 宣啓",
-                presenter_info: "なし",
+                presenter_info: "1992年日本アイ・ビー・エム株式会社に入社。SEを経て1999年より同社品質保証組織にてQuality Inspectionチームを立上げ。品質工学および上流フェーズ欠陥検出技術の社内外への展開を手がける。2005年, IBM Raleigh研究所、Austin研究所にて同社汎用機OS,商用Unixの品質管理チームに所属。IBM-QI法のUS展開を行う。現在同社東京基礎研究所にて欠陥の研究を行う傍ら、システム寿命の研究、AI, IoTの品質保証方法の研究およびビジネスサポート等、先進技術を学術・現場の両方で展開中。自称「史上最悪の欠陥エンジニア」",
                 company: "日本IBM",
                 img: "static/images/profiles/hosokawa.jpg",
                 links: {
                     facebook: "https://www.facebook.com/nobu.dreamstate.hosokawa"
-                }  
+                }
             },
             {
                 id: 7,
@@ -124,11 +124,11 @@ module.exports = {
                 presentation_name: "Scrumが難しいのは幻想-情熱の再定義-",
                 presentation_info: "私達のチームは2016年までメトリクスの活用、スプリント期間の短縮、くじ引きで決めるPOやSM、などのプラクティスを通して改善を繰り返してきました。スクラムガイドもどんどん破りました。このチームはScrumが難しいなんて思っていませんし、誰でも出来ると信じています。チームが開発する製品は大きく変わりましたがScrumが難しいなんてことはありませんでしたし、なによりこのチームのエッセンスを大学生40名に導入したところなんと1週間で1日スプリントをモノにしました。Scrumが難しいのは幻想だったのかもしれません。我々のチームはこういったことを通して2017年にいくつかのプラクティスを確立しました。スプリント期間は1時間へ、チーム内ボトルネックへの対応時間は25分以内を保証、人的リソース活用の損益分岐点を常に意識できる開発プロセスです。結果、1週間でレビューを35回以上、振り返りを30回以上行っています。1週間で改善した項目は最大で20アイテムにおよび、それらのムダ取りによって6ヶ月間で最大2倍の成果を生み出しています。チームのパフォーマンスを最大化するために私達の計画的な学び方、偶発的事象からの学び方などをScrumの文脈でご紹介します。",
                 presenter_name: "きょん",
-                presenter_info: "なし",
+                presenter_info: "名古屋を中心にソフトウェアの受託開発をしています。ソフトウェアテストを中心にスクラム、ソフトウェア構成管理、TDDの実践に注力しています。仕事で使っているプログラミング言語はGroovy Scheme Scala F#です。",
                 img: "static/images/profiles/kyon.png",
                 links: {
                     twitter: "https://twitter.com/kyon_mm"
-                }  
+                }
             },
             {
                 id: 8,
@@ -141,40 +141,43 @@ module.exports = {
                 img: "static/images/profiles/yamakawa.jpg",
                 links: {
                     twitter: "https://twitter.com/masakiyamakawa"
-                }  
+                }
             },
             {
                 id: 9,
                 time: "16:40 - 17:10",
                 presentation_name: "はてなにおける機械学習の取り組み",
                 presentation_info: "機械学習を使ったアプケーション開発は技術的負債の高利子クレジットカードと言われることもあり、技術的負債になりやすい存在です。はてなでも、これまではてなブックマークの記事カテゴリ判定などの様々な場面で機械学習を活用した機能を開発してきましたが、中には、モデルの再現や継続的な改善ができず技術的負債となってしまった機能も存在します。 こうした課題がある中、教師あり機械学習を使ったアプリケーションであり、Perlで書かれていたBrandSafeはてなをPythonでリプレースしました。BrandSafeはてなを事例として、機械学習システムを技術的負債にしないために、機械学習を使ったアプリケーション開発時に考慮した機械学習の再現性や、データやモデルのバージョン管理についての取り組みを紹介します。また、はてなではこれまで経験のなかった教師なし機械学習(異常検知)を利用したアプリケーション開発を行なう際に組織で行なった取り組みも紹介します。",
-                presenter_name: "吉田康久(id:syou6162)",
+                presenter_name: "吉田康久",
                 presenter_info: "なし",
                 company: "株式会社はてな",
                 img: "static/images/profiles/syou6162.jpg",
                 links: {
                     twitter: "https://twitter.com/syou6162"
-                }  
+                }
             },
             {
                 id: 10,
                 time: "17:20 - 17:50",
                 presentation_name: "全然わからない。俺たちは雰囲気でコンテナをやっている",
                 presentation_info: "皆さんは、やっていますか？ コンテナなどを...。運用自動化やInfrastracture as Codeの隆盛などから、さまざまな文脈でLinuxコンテナに注目が集まっています。そんなコンテナに関するキーワードは、LXCに始まり、Docker、runc、Kubernetes、OCI、CRI-O、果ては各種クラウドまで拡散し、枚挙にいとまがありません。本セッションでは、あまりに早い潮流の変化に置いていかれているような感覚を覚える方、触れてはみたものの根本的な技術の理解が追いつかない技術者のために、 コンテナ技術を上から下まで眺めて、整理することを試みます。その上で、Kubernetesだけではないコンテナの活用の一例として、拙作「Haconiwa」を使って何ができるか、何をしているかのお話もできればと思います。",
-                presenter_name: "近藤うちお(@udzura)",
+                presenter_name: "近藤うちお",
                 presenter_info: "なし",
                 company: "GMOペパボ株式会社 技術基盤チーム",
-                img: "static/images/profiles/udzura.jpg" 
+                img: "static/images/profiles/udzura.jpg",
+                links: {
+                    twitter: "https://twitter.com/udzura"
+                }
             },
             {
                 id: 11,
                 time: "17:50 - 18:20",
-                presentation_name: "なし",
-                presentation_info: "なし",
-                presenter_name: "はるき",
+                presentation_name: "調整中",
+                presentation_info: "調整中",
+                presenter_name: "調整中",
                 presenter_info: "なし",
-                company: "LINE株式会社",
-                img: "static/images/profile-dummy.png", 
+                company: "",
+                img: "static/images/profile-dummy.png",
             }
         ]
     },
@@ -220,7 +223,7 @@ module.exports = {
                 links: {
                     blog: "#",
                     twitter: "#"
-                }   
+                }
             },
             {
                 id: 1,
@@ -246,7 +249,7 @@ module.exports = {
                 img: "static/images/profiles/tarunon.jpg",
                 links: {
                     twitter: "https://twitter.com/tarunon"
-                }  
+                }
             },
             {
                 id: 3,
@@ -260,7 +263,7 @@ module.exports = {
                 links: {
                     blog: "#",
                     twitter: "#"
-                }  
+                }
             },
             {
                 id: 4,
@@ -274,7 +277,7 @@ module.exports = {
                 links: {
                     blog: "http://kazoo04.hatenablog.com/",
                     twitter: "https://twitter.com/kazoo04"
-                } 
+                }
             },
             {
                 id: 5,
@@ -283,15 +286,15 @@ module.exports = {
                 presentation_info: "None yet",
                 presenter_name: "Nakahara",
                 presenter_info: "None yet",
-                img: "static/images/profile-dummy.png"  
+                img: "static/images/profile-dummy.png"
             },
             {
                 id: 6,
                 time: "14:50 - 15:20",
-                presentation_name: "Test",
-                presentation_info: "None yet",
+                presentation_name: "Not yet",
+                presentation_info: "Not yet",
                 presenter_name: "Nobuhiro Hosokawa",
-                presenter_info: "None yet",
+                presenter_info: "Not yet",
                 company: "IBM Japan",
                 img: "static/images/profiles/hosokawa.jpg",
                 links: {
@@ -301,14 +304,14 @@ module.exports = {
             {
                 id: 7,
                 time: "15:20 - 15:50",
-                presentation_name: "Scrum",
-                presentation_info: "None yet",
+                presentation_name: "Not yet",
+                presentation_info: "Not yet",
                 presenter_name: "Kyon",
-                presenter_info: "None yet",
+                presenter_info: "Not yet",
                 img: "static/images/profiles/kyon.png",
                 links: {
                     twitter: "https://twitter.com/kyon_mm"
-                }  
+                }
             },
             {
                 id: 8,
@@ -316,12 +319,12 @@ module.exports = {
                 presentation_name: "Learn the in-memory data grid with Apache Geode!",
                 presentation_info: "Ultra-fast and scalable data access is what the future system architecture needs, and in-memory data grid will realize that. In this session, by using the open source “Apache Geode” and comparing it with java.util.Map, I'll introduce the implementation method for data processing that is best suited for micro service architecture and CQRS architecture.",
                 presenter_name: "Masaki Yamakawa",
-                presenter_info: "None yet",
+                presenter_info: "Not yet",
                 company: "UL Systems, Inc.",
                 img: "static/images/profiles/yamakawa.jpg",
                 links: {
                     twitter: "https://twitter.com/masakiyamakawa"
-                }  
+                }
             },
             {
                 id: 9,
@@ -329,12 +332,12 @@ module.exports = {
                 presentation_name: "Efforts of machine learning in Hatena",
                 presentation_info: "Application development using machine learning is sometimes referred to as high-interest credit card of technical debt, and it is apt to be a technical liability. In Hatena, we have developed features utilizing machine learning at various scenes such as article category judgment of Hatena bookmark. However, some of the features have ended up as technical debt, as we were not able to reproduce certain models or make continuous improvements on to them. In the midst of these challenges, we replaced BrandSafe Hatena, an application using supervised machine learning which was written in Perl, with Python. Using BrandSafe Hatena as a case study, I am going to talk about what we did to prevent the machine learning system from becoming a technical debt. For example, I will discuss the thinking behind the reproducibility of machine learning at the time of application development, as well as version management of data and models. In addition, I'll describe the efforts we made at Hatena in developing applications through unsupervised machine learning (abnormality detection), which was our first.",
                 presenter_name: "Yasuhisa Yoshida",
-                presenter_info: "None yet",
+                presenter_info: "Not yet",
                 company: "Hatena Co., Ltd.",
                 img: "static/images/profiles/syou6162.jpg",
                 links: {
                     twitter: "https://twitter.com/syou6162"
-                }  
+                }
             },
             {
                 id: 10,
@@ -342,19 +345,22 @@ module.exports = {
                 presentation_name: "I can not understand at all. We are doing containers with the feeling",
                 presentation_info: "Are you using or developing containers etc...? Due to the surge in operation automation or Infrastracture as Code, Linux container has been garnering a lot of attention from various contexts. The keywords related to such containers start with LXC, followed by Docker, runc, Kubernetes, OCI, CRI-O, and finally extending to as far as various cloud services. At this point, there are too many containers to keep track of. In this session, I am going to provide a comprehensive picture of container technologies to those who think they have been left behind in the rapid currents of technological transformation, and those who tried the container but failed to understand its fundamental principles. On top of that, as an example of utilization of containers other than Kubernetes, I would like to introduce my product 'Haconiwa' and talk about what we can do with this product, and what we are doing with it.",
                 presenter_name: "Uchio Kondo",
-                presenter_info: "None yet",
+                presenter_info: "Not yet",
                 company: "GMO Pepabo, Inc.",
-                img: "static/images/profiles/udzura.jpg" 
+                img: "static/images/profiles/udzura.jpg",
+                links: {
+                    twitter: "https://twitter.com/udzura"
+                }
             },
             {
                 id: 11,
                 time: "17:50 - 18:20",
-                presentation_name: "None yet",
-                presentation_info: "None yet",
-                presenter_name: "Haruki",
-                presenter_info: "None yet",
-                company: "LINE Corporation",
-                img: "static/images/profile-dummy.png", 
+                presentation_name: "Not yet",
+                presentation_info: "Not yet",
+                presenter_name: "Not yet",
+                presenter_info: "Not yet",
+                company: "",
+                img: "static/images/profile-dummy.png",
             }
         ]
     }
