@@ -71,7 +71,7 @@ module.exports = {
                 time: "12:10 - 12:40",
                 presentation_name: "Apache Hivemall meets DigDag: Machine Learning Pipeline in SQL queries",
                 presentation_info: "Apache Hivemallは、日本発のOSSプロジェクトとして初めてApache Incubatorで育成プロジェクトとして認められ、トップレベルプロジェクトへの昇格を目指して開発を進めています。 機械学習の特徴量エンジニアリングや各種学習アルゴリズムをユーザー定義関数（UDF）として実装することで、機械学習の一連の処理をHiveQLやSparkSQLなどSQLクエリによる実現できるのがApache Hivemallの最大の特徴です。 本講演では、前半でHivemallの機能の紹介をし、後半でトレジャーデータが開発するOSSワークフローエンジンDigDagとApache Hivemallを利用した機械学習ワークフローの実例を紹介します。 ワークフローエンジンとの組合せにより複雑な機械学習ワークフローをどのようにプロダクション環境に展開したら良いかの一例を示します。",
-                presenter_name: "油井 誠 (@myui)",
+                presenter_name: "油井 誠",
                 presenter_info: "",
                 company: "トレジャーデータ株式会社",
                 img: "static/images/profiles/myui.jpeg",
@@ -132,7 +132,7 @@ module.exports = {
                 presentation_name: "Apache Geodeで学ぶ！インメモリーデータグリッド",
                 presentation_info: "これからのシステムアーキテクチャに必要なのは超高速でスケーラブルなデータアクセス。それを実現するのがインメモリーデータグリッドです。今回はオープンソースの「Apache Geode」を使ってマイクロサービスアーキテクチャー、CQRSアーキテクチャーに最適なデータ処理の実装方法をjava.util.Mapと比較しつつご紹介します。",
                 presenter_name: "山河 征紀（やまかわ まさき）",
-                presenter_info: "なし",
+                presenter_info: "",
                 company: "ウルシステムズ株式会社",
                 img: "static/images/profiles/yamakawa.jpg",
                 links: {
@@ -144,8 +144,8 @@ module.exports = {
                 time: "16:40 - 17:10",
                 presentation_name: "はてなにおける機械学習の取り組み",
                 presentation_info: "機械学習を使ったアプケーション開発は技術的負債の高利子クレジットカードと言われることもあり、技術的負債になりやすい存在です。はてなでも、これまではてなブックマークの記事カテゴリ判定などの様々な場面で機械学習を活用した機能を開発してきましたが、中には、モデルの再現や継続的な改善ができず技術的負債となってしまった機能も存在します。 こうした課題がある中、教師あり機械学習を使ったアプリケーションであり、Perlで書かれていたBrandSafeはてなをPythonでリプレースしました。BrandSafeはてなを事例として、機械学習システムを技術的負債にしないために、機械学習を使ったアプリケーション開発時に考慮した機械学習の再現性や、データやモデルのバージョン管理についての取り組みを紹介します。また、はてなではこれまで経験のなかった教師なし機械学習(異常検知)を利用したアプリケーション開発を行なう際に組織で行なった取り組みも紹介します。",
-                presenter_name: "吉田康久",
-                presenter_info: "なし",
+                presenter_name: "吉田 康久",
+                presenter_info: "",
                 company: "株式会社はてな",
                 img: "static/images/profiles/syou6162.jpg",
                 links: {
@@ -157,8 +157,8 @@ module.exports = {
                 time: "17:20 - 17:50",
                 presentation_name: "全然わからない。俺たちは雰囲気でコンテナをやっている",
                 presentation_info: "皆さんは、やっていますか？ コンテナなどを...。運用自動化やInfrastracture as Codeの隆盛などから、さまざまな文脈でLinuxコンテナに注目が集まっています。そんなコンテナに関するキーワードは、LXCに始まり、Docker、runc、Kubernetes、OCI、CRI-O、果ては各種クラウドまで拡散し、枚挙にいとまがありません。本セッションでは、あまりに早い潮流の変化に置いていかれているような感覚を覚える方、触れてはみたものの根本的な技術の理解が追いつかない技術者のために、 コンテナ技術を上から下まで眺めて、整理することを試みます。その上で、Kubernetesだけではないコンテナの活用の一例として、拙作「Haconiwa」を使って何ができるか、何をしているかのお話もできればと思います。",
-                presenter_name: "近藤うちお",
-                presenter_info: "なし",
+                presenter_name: "近藤 うちお",
+                presenter_info: "",
                 company: "GMOペパボ株式会社 技術基盤チーム",
                 img: "static/images/profiles/udzura.jpg",
                 links: {
@@ -171,7 +171,7 @@ module.exports = {
                 presentation_name: "調整中",
                 presentation_info: "調整中",
                 presenter_name: "佐藤 春旗",
-                presenter_info: "なし",
+                presenter_info: "",
                 company: "LINE株式会社",
                 img: "static/images/profiles/haruki.jpg",
             }
@@ -311,7 +311,7 @@ module.exports = {
                 presentation_name: "Learn the in-memory data grid with Apache Geode!",
                 presentation_info: "Ultra-fast and scalable data access is what the future system architecture needs, and in-memory data grid will realize that. In this session, by using the open source “Apache Geode” and comparing it with java.util.Map, I'll introduce the implementation method for data processing that is best suited for micro service architecture and CQRS architecture.",
                 presenter_name: "Masaki Yamakawa",
-                presenter_info: "Not yet",
+                presenter_info: "",
                 company: "UL Systems, Inc.",
                 img: "static/images/profiles/yamakawa.jpg",
                 links: {
@@ -324,7 +324,7 @@ module.exports = {
                 presentation_name: "Efforts of machine learning in Hatena",
                 presentation_info: "Application development using machine learning is sometimes referred to as high-interest credit card of technical debt, and it is apt to be a technical liability. In Hatena, we have developed features utilizing machine learning at various scenes such as article category judgment of Hatena bookmark. However, some of the features have ended up as technical debt, as we were not able to reproduce certain models or make continuous improvements on to them. In the midst of these challenges, we replaced BrandSafe Hatena, an application using supervised machine learning which was written in Perl, with Python. Using BrandSafe Hatena as a case study, I am going to talk about what we did to prevent the machine learning system from becoming a technical debt. For example, I will discuss the thinking behind the reproducibility of machine learning at the time of application development, as well as version management of data and models. In addition, I'll describe the efforts we made at Hatena in developing applications through unsupervised machine learning (abnormality detection), which was our first.",
                 presenter_name: "Yasuhisa Yoshida",
-                presenter_info: "Not yet",
+                presenter_info: "",
                 company: "Hatena Co., Ltd.",
                 img: "static/images/profiles/syou6162.jpg",
                 links: {
@@ -337,7 +337,7 @@ module.exports = {
                 presentation_name: "I can not understand at all. We are doing containers with the feeling",
                 presentation_info: "Are you using or developing containers etc...? Due to the surge in operation automation or Infrastracture as Code, Linux container has been garnering a lot of attention from various contexts. The keywords related to such containers start with LXC, followed by Docker, runc, Kubernetes, OCI, CRI-O, and finally extending to as far as various cloud services. At this point, there are too many containers to keep track of. In this session, I am going to provide a comprehensive picture of container technologies to those who think they have been left behind in the rapid currents of technological transformation, and those who tried the container but failed to understand its fundamental principles. On top of that, as an example of utilization of containers other than Kubernetes, I would like to introduce my product 'Haconiwa' and talk about what we can do with this product, and what we are doing with it.",
                 presenter_name: "Uchio Kondo",
-                presenter_info: "Not yet",
+                presenter_info: "",
                 company: "GMO Pepabo, Inc.",
                 img: "static/images/profiles/udzura.jpg",
                 links: {
@@ -350,7 +350,7 @@ module.exports = {
                 presentation_name: "Not yet",
                 presentation_info: "Not yet",
                 presenter_name: "Haruki Sato",
-                presenter_info: "Not yet",
+                presenter_info: "",
                 company: "LINE Corporation",
                 img: "static/images/profiles/haruki.jpg",
             }
