@@ -296,7 +296,7 @@ module.exports = {
                 presentation_name: "Not yet",
                 presentation_info: "Not yet",
                 presenter_name: "Nobuhiro Hosokawa",
-                presenter_info: "Not yet",
+                presenter_info: "",
                 company: "IBM Japan",
                 img: "static/images/profiles/hosokawa.jpg",
                 links: {
@@ -309,7 +309,7 @@ module.exports = {
                 presentation_name: "Not yet",
                 presentation_info: "Not yet",
                 presenter_name: "Kyon",
-                presenter_info: "Not yet",
+                presenter_info: "",
                 img: "static/images/profiles/kyon.png",
                 links: {
                     twitter: "https://twitter.com/kyon_mm"
