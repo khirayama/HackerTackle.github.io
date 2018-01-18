@@ -28,7 +28,7 @@
             <Popup v-if="popup" :presentation="$t('presentations')[ind]" :popup="popup" :popupType="popupType" @popupWasClosed="popup = $event"></Popup>
             <a href="pdf/2016/2016timetable.pdf" target="_blank" class="pdf-download-btn">{{ $t("pdf_download") }}</a>
         </div>
-        <a class="apply-btn" href="#" target="_blank">{{ $t("btn") }}</a>
+        <a class="apply-btn" href="https://hakat.connpass.com/event/76855" target="_blank">{{ $t("btn") }}</a>
         <h3 class="sub-title">SPONSORS</h3>
         <img class="line-logo" src="static/images/line.png" alt="LINE">
     </div>
