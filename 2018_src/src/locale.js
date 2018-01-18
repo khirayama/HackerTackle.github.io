@@ -34,13 +34,12 @@ module.exports = {
                 presentation_name: "Ponylangとこれからの並行プログラミング",
                 presentation_info: "デッドロック、データ競合など並行処理には様々な問題がつきものですが、幾つもの研究と経験からベストプラクティスが編み出されているのも事実です。今回はこういった並行処理についての問題と一般的に用いられる解決策を述べるとともに、これらの背景の中で開発された新しいプログラミング言語Ponyを紹介します。Ponyはアクターモデルをベースとしており、並行処理に関する様々なバグが存在しないことをコンパイル時に検証する強力な型システムを持っています。v0.1のリリースが2015年4月と比較的若い言語ですが、安全性を保証するだけでなくパフォーマンスも追求した実装がなされており、これから並行プログラミングを行う際の選択肢になりうるポテンシャルを秘めています。セッションではPonyが解決しようとしている問題だけでなく、言語設計で行われている様々な挑戦についても時間の許す限り紹介していきたいと思います！",
                 presenter_name: "matsu_chara",
-                presenter_info: "なし",
+                presenter_info: "",
                 company: "株式会社FOLIO",
                 img: "static/images/profiles/matsu_chara.jpg",
                 links: {
-                    blog: "#",
-                    twitter: "#"
-                }
+                    twitter: "https://twitter.com/matsu_chara"
+                }   
             },
             {
                 id: 1,
@@ -48,12 +47,11 @@ module.exports = {
                 presentation_name: "Concurrency in Rust",
                 presentation_info: "The Rust programming language purports the bold claim that it guarantees thread safety while retaining the ability to write zero-cost abstractions. In this talk we'll explore precisely how Rust can make such a claim. We'll also explore the ecosystem that makes up the concurrency toolkit in Rust to see how these language principles are extended to common abstractions such as channels, thread pools, work stealing algorithms, concurrent data structures, and asynchronous I/O.",
                 presenter_name: "Alex Crichton",
-                presenter_info: "None yet",
+                presenter_info: "",
                 company: "Mozilla Corporation",
-                img: "static/images/profile-dummy.png",
+                img: "static/images/profiles/alex.jpg",
                 links: {
-                    facebook: "#"
-                }
+                }  
             },
             {
                 id: 2,
@@ -61,7 +59,7 @@ module.exports = {
                 presentation_name: "無と型とプログラム",
                 presentation_info: "プログラムにおける「無」について考察します。我々がコードを書くとき、「無」は至る所にあらゆる形で出現します。未定義、初期化前、削除後、0、空文字列、空配列、etc...ひとたび表現を誤れば冗長なコードやバグに呵まされる事になります。様々な言語における「無」の表現について、利点欠点を踏まえて紹介します。また、どのように「無」を扱うべきなのか、直近で私が遭遇した「無」の取り扱いの失敗を参考に、「無」との付き合い方を考えていきたいと思います。",
                 presenter_name: "tarunon",
-                presenter_info: "なし",
+                presenter_info: "",
                 company: "株式会社メルカリ",
                 img: "static/images/profiles/tarunon.jpg",
                 links: {
@@ -74,13 +72,12 @@ module.exports = {
                 presentation_name: "Apache Hivemall meets DigDag: Machine Learning Pipeline in SQL queries",
                 presentation_info: "Apache Hivemallは、日本発のOSSプロジェクトとして初めてApache Incubatorで育成プロジェクトとして認められ、トップレベルプロジェクトへの昇格を目指して開発を進めています。 機械学習の特徴量エンジニアリングや各種学習アルゴリズムをユーザー定義関数（UDF）として実装することで、機械学習の一連の処理をHiveQLやSparkSQLなどSQLクエリによる実現できるのがApache Hivemallの最大の特徴です。 本講演では、前半でHivemallの機能の紹介をし、後半でトレジャーデータが開発するOSSワークフローエンジンDigDagとApache Hivemallを利用した機械学習ワークフローの実例を紹介します。 ワークフローエンジンとの組合せにより複雑な機械学習ワークフローをどのようにプロダクション環境に展開したら良いかの一例を示します。",
                 presenter_name: "油井誠 (@myui)",
-                presenter_info: "なし",
+                presenter_info: "",
                 company: "トレジャーデータ株式会社",
                 img: "static/images/profiles/myui.jpeg",
                 links: {
-                    blog: "#",
-                    twitter: "#"
-                }
+                    twitter: "https://twitter.com/myui"
+                }  
             },
             {
                 id: 4,
@@ -88,22 +85,21 @@ module.exports = {
                 presentation_name: "人工知能の研究者は今なにがアツいと思っているのか",
                 presentation_info: "人工知能といってもその捉え方は人によって様々です。 今で言う「人工知能」を大雑把に捉えるなら、ひとつは「機械学習」、もうひとつは「汎用人工知能」です。 前者は近年のディープラーニングブームによってエンジニアのみなさんにとってもすっかり身近なものになりました。 後者はというとOpenAIや全脳知能アーキテクチャが目指している「人間のような適応能力を持つ”真の”人工知能」ですがこちらはまだ一般的なものではありません(巷では2045年には実現してシンギュラリティが起きるそうですが……！)。 本セッションでは両者の進展を交えつつ、特に後者の汎用人工知能研究において、最前線にいる人々が一体なにを考え、どのような問題にどう取り組んでいるのかについて紹介します。",
                 presenter_name: "五木田 和也(ごきた かずや)",
-                presenter_info: "なし",
+                presenter_info: "",
                 company: "株式会社ウサギィ",
                 img: "static/images/profiles/kazoo.jpg",
                 links: {
-                    blog: "http://kazoo04.hatenablog.com/",
                     twitter: "https://twitter.com/kazoo04"
                 }
             },
             {
                 id: 5,
                 time: "14:10 - 14:40",
-                presentation_name: "ディープラーニング専用ハードウェアの研究開発について",
-                presentation_info: "なし",
-                presenter_name: "中原",
-                presenter_info: "なし",
-                img: "static/images/profile-dummy.png"
+                presentation_name: "調整中",
+                presentation_info: "調整中",
+                presenter_name: "調整中",
+                presenter_info: "",
+                img: "static/images/profile-dummy.png" 
             },
             {
                 id: 6,
@@ -215,36 +211,34 @@ module.exports = {
                 id: 0,
                 time: "10:30 - 11:00",
                 presentation_name: "Ponylang and future concurrent programming",
-                presentation_info: "Concurrent processing is accompanied by various problems, for example, Deadlock, data competition, etc. but it is also true that best practices are being devised from a number of researches and experiences. In this session, I will describe the problems associated with parallel processing and the commonly used solutions, and I will also introduce the new programming language, Pony, which has been developed under these contextual backgrounds. Pony is based on the actor model, and it has a powerful type system that verifies the existence of various bugs at the time of compiling in relation to concurrent processing. It is a relatively young programming language, given the release of its version 0.1 in April 2015. However, in addition to its safety, which is guaranteed, Pony has also been implemented with features that place a premium on performance. Thus, it has the potential to become one of the options for concurrent programming in the future. As far as time permits, I would like to shed light not only on the problems Pony is trying to solve, but also the various challenges that are being undertaken by language design! ",
+                presentation_info: "Concurrent processing is accompanied by various problems, for example, Deadlock, data competition, etc. but it is also true that best practices are being devised from a number of researches and experiences. In this session, I will describe the problems associated with parallel processing and the commonly used solutions, and I will also introduce the new programming language, Pony, which has been developed under these contextual backgrounds. Pony is based on the actor model, and it has a powerful type system that verifies the existence of various bugs at the time of compiling in relation to concurrent processing. It is a relatively young programming language, given the release of its version 0.1 in April 2015. However, in addition to its safety, which is guaranteed, Pony has also been implemented with features that place a premium on performance. Thus, it has the potential to become one of the options for concurrent programming in the future. As far as time permits, I would like to shed light not only on the problems Pony is trying to solve, but also the various challenges that are being undertaken by language design!",
                 presenter_name: "matsu_chara",
-                presenter_info: "None yet",
+                presenter_info: "",
                 company: "FOLIO Co.,Ltd.",
                 img: "static/images/profiles/matsu_chara.jpg",
                 links: {
-                    blog: "#",
-                    twitter: "#"
-                }
+                    twitter: "https://twitter.com/matsu_chara"
+                }   
             },
             {
                 id: 1,
                 time: "11:00 - 11:30",
                 presentation_name: "Concurrency in Rust",
-                presentation_info: "The Rust programming language purports the bold claim that it guarantees thread safety while retaining the ability to write zero-cost abstractions. In this talk we'll explore precisely how Rust can make such a claim. We'll also explore the ecosystem that makes up the concurrency toolkit in Rust to see how these language principles are extended to common abstractions such as channels, thread pools, work stealing algorithms, concurrent data structures, and asynchronous I/O.",
+                presentation_info: "The Rust programming language purports the bold claim that it guarantees thread safety while retaining the ability to write zero-cost abstractions. In this talk we'll explore precisely how Rust can make such a claim. We'll also explore the ecosystem that makes up the concurrency toolkit in Rust to see how these language principles are extended to common abstractions such as channels, thread pools, work stealing algorithms, concurrent data structures, and asynchronous I/O. ",
                 presenter_name: "Alex Crichton",
-                presenter_info: "None yet",
+                presenter_info: "",
                 company: "Mozilla Corporation",
-                img: "static/images/profile-dummy.png",
+                img: "static/images/profiles/alex.jpg",
                 links: {
-                    facebook: "#"
                 }
             },
             {
                 id: 2,
                 time: "11:40 - 12:10",
                 presentation_name: "None, type and program",
-                presentation_info: "In this session, I will ponder on the meaning of 'Mu,' or nothingness, in the context of a program. When we code, Mu  appears everywhere in various forms: undefined,  pre-initialization, post deletion, 0, empty string, empty array, etc... Once you make a mistake in expression, you will end up with redundant codes and bugs. I'll introduce the expression of 'Mu' found in various programing languages while focusing on its benefits and shortcomings. Also, by citing the most recent episode in how I failed to handle Mu, I would like to think about how to approach “Mu” as well as how to get along with it.   ",
+                presentation_info: 'In this session, I will ponder on the meaning of "Mu," or nothingness, in the context of a program. When we code, Mu  appears everywhere in various forms: undefined,  pre-initialization, post deletion, 0, empty string, empty array, etc... Once you make a mistake in expression, you will end up with redundant codes and bugs. I\'ll introduce the expression of "Mu" found in various programing languages while focusing on its benefits and shortcomings. Also, by citing the most recent episode in how I failed to handle Mu, I would like to think about how to approach “Mu” as well as how to get along with it.   ',
                 presenter_name: "tarunon",
-                presenter_info: "None yet",
+                presenter_info: "",
                 company: "Mercari, Inc.",
                 img: "static/images/profiles/tarunon.jpg",
                 links: {
@@ -257,13 +251,12 @@ module.exports = {
                 presentation_name: "Apache Hivemall meets DigDag: Machine Learning Pipeline in SQL queries",
                 presentation_info: "Apache Hivemall is the first OSS project from Japan to be recognized as a training project at Apache Incubator, and it is being developed with the aim to be promoted to a top-level project. The biggest feature of Apache Hivemall is that by implementing feature quantity engineering of machine learning and various learning algorithms as user defined functions (UDF), a series of machine learning processes can be realized with SQL queries such as HiveQL and SparkSQL. In the first half of the presentation, I will introduce Hivemall's features, and in the second half, I will give an example of machine learning workflow by using OSS workflow engine DigDag and Apache Hivemall, which has been developed by Treasure Data. I will show an example of how to combine a workflow engine with a complex machine learning workflow to deploy in a production environment.",
                 presenter_name: "Makoto Yui",
-                presenter_info: "None yet",
+                presenter_info: "",
                 company: "Treasure Data Inc.",
                 img: "static/images/profiles/myui.jpeg",
                 links: {
-                    blog: "#",
-                    twitter: "#"
-                }
+                    twitter: "https://twitter.com/myui"
+                }  
             },
             {
                 id: 4,
@@ -271,22 +264,21 @@ module.exports = {
                 presentation_name: "For artificial intelligence researchers, what is currently a hot topic",
                 presentation_info: "People vary in their perception of artificial intelligence(AI). However, if we are to broadly define what we know as AI today, we can break it down into the following two categories: 1. machine learning, and 2. artificial general intelligence (AGI). Due to the boom in deep learning in recent years, machine learning has become a very familiar subject for engineers. AGI can be defined as the ‘true’ AI with adaptive abilities akin to a human being, which is what OpenAI and whole brain intelligence architecture are aiming to be. However, development is still in its nascent stage (it’s said that AGI will be realized in 2045 and supposedly Singularity will take place...!) In this session, I will talk about the progress that has been made on both AI and AGI, and in particular, I will show you what people are thinking who are at the forefront of AGI research, as well as what kind of problems they are addressing.",
                 presenter_name: "Kazuya Gokita",
-                presenter_info: "None yet",
+                presenter_info: "",
                 company: "Usagee Inc.",
                 img: "static/images/profiles/kazoo.jpg",
                 links: {
-                    blog: "http://kazoo04.hatenablog.com/",
                     twitter: "https://twitter.com/kazoo04"
                 }
             },
             {
                 id: 5,
                 time: "14:10 - 14:40",
-                presentation_name: "About research and development of deep learning dedicated hardware",
-                presentation_info: "None yet",
-                presenter_name: "Nakahara",
-                presenter_info: "None yet",
-                img: "static/images/profile-dummy.png"
+                presentation_name: "TBA",
+                presentation_info: "TBA",
+                presenter_name: "TBA",
+                presenter_info: "",
+                img: "static/images/profile-dummy.png"  
             },
             {
                 id: 6,
