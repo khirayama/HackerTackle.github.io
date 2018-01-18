@@ -30,7 +30,16 @@
         </div>
         <a class="apply-btn" href="https://hakat.connpass.com/event/76855" target="_blank">{{ $t("btn") }}</a>
         <h3 class="sub-title">SPONSORS</h3>
-        <img class="line-logo" src="static/images/line.png" alt="LINE">
+        <br/>
+        <a href="https://linecorp.com/" target="_blank"><img class="line-logo" src="static/images/line.png" alt="LINE" width="250"></a>
+        <br/>
+        <br/>
+        <br/>
+        <a href="https://www.mozilla.org/" target="_blank"><img class="line-logo" src="static/images/moz-logo-bw-rgb.png" alt="Mozilla" width="180"></a>
+        <br/>
+        <br/>
+        <br/>
+        <a href="https://www.ulsystems.co.jp/" target="_blank"><img class="line-logo" src="static/images/ul-logo.png" alt="Ulsystems" width="140"></a>
     </div>
 </section>
 </template>
