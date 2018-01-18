@@ -25,7 +25,7 @@
         <p class="header-date">2018.02.17</p>
         <p class="header-time">10:30-21:30 (OPEN 10:00)</p>
         <p class="header-place">ACCESS: {{ $t("access") }}</p>
-        <a class="apply-btn" href="#" target="_blank">{{ $t("btn") }}</a>
+        <a class="apply-btn" href="https://hakat.connpass.com/event/76855" target="_blank">{{ $t("btn") }}</a>
     </header>
 
     <section id="concept">
@@ -51,7 +51,7 @@
 
     <footer><small>© 2018 {{ $t("footer.organizer") }}</small></footer>
 
-    <a href="#" class="sp-apply-btn" target="_blank"><strong>{{ $t("btn") }}</strong></a>
+    <a href="https://hakat.connpass.com/event/76855" class="sp-apply-btn" target="_blank"><strong>{{ $t("btn") }}</strong></a>
 </div>
 </template>
 

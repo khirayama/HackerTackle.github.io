@@ -201,8 +201,8 @@ module.exports = {
           title: 'HACKER TACKLE | Hakata kuru？'
         },
         concept: {
-          main_text: 'HackerTackle is a comprehensive technical event for programmers.The event name which means "hacker tackle / 博多 来る(In Japanese, it means 'coming to Hakata')" has a wish that we want to have plenty of hackers come to Hakata and make it a place to hit various discussions.We have sessions on various technologies.Why do not you come to Hakata and absorb the new technology and discuss it?',
-          sub_text: 'Come to Hakata'
+          main_text: 'HackerTackle is a comprehensive technical event for programmers.The event name which means "hacker tackle / 博多 来る(In Japanese, it means \'coming to Hakata\')" has a wish that we want to have plenty of hackers come to Hakata and make it a place to hit various discussions.We have sessions on various technologies.',
+          sub_text: 'Why do not you come to Hakata and absorb the new technology and discuss it?'
         },
         timetable: {
           reg_time: 'Registration Time',
@@ -306,8 +306,8 @@ module.exports = {
             {
                 id: 7,
                 time: "15:20 - 15:50",
-                presentation_name: "Not yet",
-                presentation_info: "Not yet",
+                presentation_name: "TBA",
+                presentation_info: "TBA",
                 presenter_name: "Kyon",
                 presenter_info: "",
                 img: "static/images/profiles/kyon.png",
