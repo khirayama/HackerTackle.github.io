@@ -24,6 +24,9 @@ module.exports = {
           directions: 'JR九州・JR西日本・福岡市営地下鉄「博多駅」と直結',
           btn: 'Google mapで見る'
         },
+        footer: {
+            organizer: '明星和楽 HACKER TACKLE 実行委員会'
+        },
         presentations: [
             {
                 id: 0,
@@ -200,6 +203,9 @@ module.exports = {
           address: 'JRJP Hakata Bldg. 12F, 8-1 Hakataekichuogai, Hakata Ward',
           directions: 'Directly linked to Hakata Station via JR Kyushu and JR Nishinihon train lines as well as the Fukuoka City Subway',
           btn: 'View on Google Maps'
+        },
+        footer: {
+            organizer: 'MYOJO WARAKU HACKER TACKLE executive committee'
         },
         presentations: [
             {
