@@ -2,7 +2,7 @@
 /nbproject/
 
 # for node-sass
-/node_modules/
+/**/node_modules/
 /stylesheets/*.css.map
 npm-debug.log
 
@@ -10,4 +10,4 @@ npm-debug.log
 .DS_Store
 
 # for webpack
-/dist/
+/**/dist/
