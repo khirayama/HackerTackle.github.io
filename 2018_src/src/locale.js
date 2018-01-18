@@ -174,6 +174,16 @@ module.exports = {
                 presenter_info: "なし",
                 company: "LINE株式会社",
                 img: "static/images/profiles/haruki.jpg",
+            },
+            {
+                id: 12,
+                time: "18:20 - 18:30",
+                presentation_name: "スポンサーセッション",
+                presentation_info: "調整中",
+                presenter_name: "調整中",
+                presenter_info: "",
+                company: "LINE株式会社",
+                img: "static/images/profile-dummy.png",
             }
         ]
     },
@@ -353,6 +363,16 @@ module.exports = {
                 presenter_info: "Not yet",
                 company: "LINE Corporation",
                 img: "static/images/profiles/haruki.jpg",
+            },
+            {
+                id: 12,
+                time: "18:20 - 18:30",
+                presentation_name: "Sponsor session",
+                presentation_info: "TBA",
+                presenter_name: "TBA",
+                presenter_info: "",
+                company: "LINE Corporation",
+                img: "static/images/profile-dummy.png",
             }
         ]
     }
