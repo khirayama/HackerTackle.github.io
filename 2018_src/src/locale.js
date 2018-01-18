@@ -98,10 +98,10 @@ module.exports = {
             {
                 id: 5,
                 time: "14:10 - 14:40",
-                presentation_name: "ディープラーニング専用ハードウェアの研究開発について",
-                presentation_info: "なし",
-                presenter_name: "中原",
-                presenter_info: "なし",
+                presentation_name: "調整中",
+                presentation_info: "調整中",
+                presenter_name: "調整中",
+                presenter_info: "",
                 img: "static/images/profile-dummy.png" 
             },
             {
@@ -277,10 +277,10 @@ module.exports = {
             {
                 id: 5,
                 time: "14:10 - 14:40",
-                presentation_name: "About research and development of deep learning dedicated hardware",
-                presentation_info: "None yet",
-                presenter_name: "Nakahara",
-                presenter_info: "None yet",
+                presentation_name: "TBA",
+                presentation_info: "TBA",
+                presenter_name: "TBA",
+                presenter_info: "",
                 img: "static/images/profile-dummy.png"  
             },
             {
