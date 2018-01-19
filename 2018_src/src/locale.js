@@ -70,9 +70,9 @@ module.exports = {
                 id: 3,
                 time: "12:10 - 12:40",
                 presentation_name: "Apache Hivemall meets DigDag: Machine Learning Pipeline in SQL queries",
-                presentation_info: "Apache Hivemallは、日本発のOSSプロジェクトとして初めてApache Incubatorで育成プロジェクトとして認められ、トップレベルプロジェクトへの昇格を目指して開発を進めています。\n 機械学習の特徴量エンジニアリングや各種学習アルゴリズムをユーザー定義関数（UDF）として実装することで、機械学習の一連の処理をHiveQLやSparkSQLなどSQLクエリによる実現できるのがApache Hivemallの最大の特徴です。\n 本講演では、前半でHivemallの機能の紹介をし、後半でトレジャーデータが開発するOSSワークフローエンジンDigDagとApache Hivemallを利用した機械学習ワークフローの実例を紹介します。\n ワークフローエンジンとの組合せにより複雑な機械学習ワークフローをどのようにプロダクション環境に展開したら良いかの一例を示します。\n",
+                presentation_info: "Apache Hivemallは、日本発のOSSプロジェクトとして初めてApache Software Foundationで育成プロジェクトとして認められ、トップレベルのASFプロジェクトへの昇格を目指して開発を進めています。\n機械学習の特徴量エンジニアリングや各種学習アルゴリズムをユーザー定義関数（UDF）として実装することで、機械学習の一連の処理をHiveQLやSparkSQLなどSQLクエリによる実現できるのがApache Hivemallの最大の特徴です。\n本講演では、前半でHivemallの機能の紹介をし、後半でトレジャーデータが開発するOSSワークフローエンジンDigDagとApache Hivemallを利用した機械学習ワークフローの実例を紹介します。\nワークフローエンジンとの組合せにより複雑な機械学習ワークフローをどのようにプロダクション環境に展開したら良いかの一例を示します。",
                 presenter_name: "油井 誠",
-                presenter_info: "",
+                presenter_info: "Makoto YUI is a Research Engineer at Treasure Data, Inc, working on the development of Machine Learning as a Service on Treasure Data Cloud service. He is the primary developer of Apache Hivemall, a scalable machine learning on Apache Hive/Spark/Pig.\nPrior to joining Treasure Data, he was a Senior Researcher at National Institute of Advanced Industrial Science and Technology, Japan. He holds his Ph.D in Computer Science from NAIST. He was a Visiting Researcher at Data Intensive Research Group, Edinburgh University in 2011 and a Postdoc at Database Architectures and Information Access Group (a.k.a. the MonetDB team), Centrum Wiskunde & Informatica (CWI), the Netherlands from 2009 to 2010. Find his profile on http://myui.github.io/",
                 company: "トレジャーデータ株式会社",
                 img: "static/images/profiles/myui.jpeg",
                 links: {
@@ -258,11 +258,11 @@ module.exports = {
             {
                 id: 3,
                 time: "12:10 - 12:40",
-                presentation_name: "Apache Hivemall meets DigDag: Machine Learning Pipeline in SQL queries",
-                presentation_info: "Apache Hivemall is the first OSS project from Japan to be recognized as a training project at Apache Incubator, and it is being developed with the aim to be promoted to a top-level project. \nThe biggest feature of Apache Hivemall is that by implementing feature quantity engineering of machine learning and various learning algorithms as user defined functions (UDF), a series of machine learning processes can be realized with SQL queries such as HiveQL and SparkSQL. \nIn the first half of the presentation, I will introduce Hivemall's features, and in the second half, I will give an example of machine learning workflow by using OSS workflow engine DigDag and Apache Hivemall, which has been developed by Treasure Data. \nI will show an example of how to combine a workflow engine with a complex machine learning workflow to deploy in a production environment.",
+                presentation_name: "Apache Hivemall meets DigDag: Building Machine Learning Pipeline by SQL queries",
+                presentation_info: "Apache Hivemall is the first OSS project from Japan accepted as an Incubator project of Apache Software Foundation, which is currently being developed at Apache Incubator to be a top-level ASF project.\nThe main characteristic of Apache Hivemall is that a whole machine learning pipeline can be expressed by a series of SQL queries, i.e., as a series of HiveQL/SparkSQL queries, by implementing feature engineering and various machine learning algorithms as user defined functions (UDFs).\nThe first half of this talk will introduce features of Hivemall, and the rest of the talk will give an example of machine learning workflow by using DigDag, which is an OSS workflow engine developed at Treasure Data, and Apache Hivemall.\nI will show a reference architecture to deploy a complex machine learning pipeline to a production system by using a workflow engine.",
                 presenter_name: "Makoto Yui",
-                presenter_info: "",
-                company: "Treasure Data Inc.",
+                presenter_info: "Makoto YUI is a Research Engineer at Treasure Data, Inc, working on the development of Machine Learning as a Service on Treasure Data Cloud service. He is the primary developer of Apache Hivemall, a scalable machine learning on Apache Hive/Spark/Pig.\nPrior to joining Treasure Data, he was a Senior Researcher at National Institute of Advanced Industrial Science and Technology, Japan. He holds his Ph.D in Computer Science from NAIST. He was a Visiting Researcher at Data Intensive Research Group, Edinburgh University in 2011 and a Postdoc at Database Architectures and Information Access Group (a.k.a. the MonetDB team), Centrum Wiskunde & Informatica (CWI), the Netherlands from 2009 to 2010. Find his profile on http://myui.github.io/",
+                company: "Treasure Data K.K.",
                 img: "static/images/profiles/myui.jpeg",
                 links: {
                     twitter: "https://twitter.com/myui"
