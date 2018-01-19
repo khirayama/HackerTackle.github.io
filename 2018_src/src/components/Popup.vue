@@ -16,7 +16,7 @@
                         <li v-for="(value, key) in presentation.links" class="icon" :class="key"><a :href="value" target="_blank">{{ key }}</a></li>
                     </ul>
                 </div>
-                <p v-for="s in presentation.presenter_info.split('\n')">{{s}}</p>
+                <p v-if="presentation.presenter_info" v-for="s in presentation.presenter_info.split('\n')">{{s}}</p>
                 <i @click="closePopup" class="popup-close"></i>
             </div>
         </div>
