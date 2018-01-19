@@ -4,7 +4,7 @@
             <!-- PRESENTATION POPUP -->
             <div class="presentation-detail" v-if="popupType == 1" @click.stop="">
                 <h1>{{ presentation.presentation_name }}</h1>
-                <p>{{ presentation.presentation_info }}</p>
+                <p v-for="s in presentation.presentation_info.split('\n')">{{s}}</p>
                 <i @click="closePopup" class="popup-close"></i>
             </div>
             <!-- PRESENTER POPUP -->
@@ -16,7 +16,7 @@
                         <li v-for="(value, key) in presentation.links" class="icon" :class="key"><a :href="value" target="_blank">{{ key }}</a></li>
                     </ul>
                 </div>
-                <p v-if="presentation.presenter_info">{{ presentation.presenter_info }}</p>
+                <p v-if="presentation.presenter_info" v-for="s in presentation.presenter_info.split('\n')">{{s}}</p>
                 <i @click="closePopup" class="popup-close"></i>
             </div>
         </div>
