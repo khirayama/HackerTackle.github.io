@@ -4,7 +4,7 @@
             <!-- PRESENTATION POPUP -->
             <div class="presentation-detail" v-if="popupType == 1" @click.stop="">
                 <h1>{{ presentation.presentation_name }}</h1>
-                <p v-for="s in presentation.presentation_info.split('\n')">{{s}}</p>
+                <p>{{ presentation.presentation_info }}</p>
                 <i @click="closePopup" class="popup-close"></i>
             </div>
             <!-- PRESENTER POPUP -->
