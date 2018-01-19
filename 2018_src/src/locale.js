@@ -201,8 +201,8 @@ module.exports = {
           title: 'HACKER TACKLE | Hakata kuru？'
         },
         concept: {
-          main_text: 'HackerTackle is a comprehensive technical event for programmers.The event name which means "hacker tackle / 博多 来る(In Japanese, it means \'coming to Hakata\')" has a wish that we want to have plenty of hackers come to Hakata and make it a place to hit various discussions.We have sessions on various technologies.',
-          sub_text: 'Why do not you come to Hakata and absorb the new technology and discuss it?'
+          main_text: 'HackerTackle is a comprehensive technical event for programmers. The event name "Hacker Tackle / 博多 来る" in Japanese means "coming to Hakata." We have a wish that many hackers will gather in Hakata and make it a hit place for various discussions. We hold sessions on various technologies.',
+          sub_text: 'Won\'t you come to Hakata to absorb and discuss these new technologies?'
         },
         timetable: {
           reg_time: 'Registration Time',
@@ -214,7 +214,7 @@ module.exports = {
           btn: 'View on Google Maps'
         },
         footer: {
-            organizer: 'MYOJO WARAKU HACKER TACKLE executive committee'
+            organizer: 'MYOJO WARAKU HACKER TACKLE Executive Committee'
         },
         presentations: [
             {
