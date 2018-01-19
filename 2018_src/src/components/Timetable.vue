@@ -42,7 +42,6 @@
 </template>
 
 <script>
-import { eventBus } from '../main'
 import Popup from './Popup'
 
 export default {
