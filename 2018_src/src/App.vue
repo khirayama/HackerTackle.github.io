@@ -8,11 +8,11 @@
                 <li class="nav-link"><a href="#timetable-speakers">TIMETABLE &amp; SPEAKERS</a></li>
                 <li class="nav-lang-select">
                     <select v-model="$i18n.locale">
-                        <option selected value="JA">JA</option> 
+                        <option selected value="JA">JA</option>
                         <option value="EN">EN</option>
                     </select>
                 </li>
-                <li class="nav-lang-select-sp" @click="switchLang">
+                <li class="nav-lang-select-sp" @click="toggleLang">
                     <p>{{ $i18n.locale }}</p>
                 </li>
             </ul>
@@ -36,7 +36,10 @@
         </div>
     </section>
 
-    <Timetable></Timetable>
+    <Timetable
+      :presentations="presentations"
+      :popupTypes="popupTypes"
+    ></Timetable>
 
     <section class="map-container">
         <div id="map"></div>
@@ -56,21 +59,24 @@
 </template>
 
 <script>
-import Timetable from './components/Timetable'
+import {languages, popupTypes} from './constants';
+import Timetable from './components/Timetable';
 
 export default {
     name: 'app',
     components: {
-        Timetable
+        Timetable,
+    },
+    data: function() {
+      return {
+        popupTypes,
+        presentations: this.$t('presentations'),
+      };
     },
     methods: {
-        switchLang() {
-            if (this.$i18n.locale === 'JA') {
-                return this.$i18n.locale = 'EN'
-            } else {
-                return this.$i18n.locale = 'JA'
-            }
-        }
+        toggleLang: function() {
+          this.$i18n.locale = (this.$i18n.locale === languages.JA) ? languages.EN : languages.JA;
+        },
     }
 }
 </script>
