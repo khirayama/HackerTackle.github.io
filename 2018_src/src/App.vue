@@ -38,8 +38,16 @@
 
     <Timetable
       :presentations="presentations"
-      :popupTypes="popupTypes"
+      @click:presentation:content="handleClickPresentationContent"
+      @click:presentation:presenter="handleClickPresentationPresenter"
     ></Timetable>
+    <Popup
+      v-if="isPopupShown"
+      :presentation="findPresentation(selectedPresentationId)"
+      :popupType="popupType"
+      :popupTypes="popupTypes"
+      @click:closeButton="handleClickPopupCloseButton"
+    ></Popup>
 
     <section class="map-container">
         <div id="map"></div>
@@ -61,21 +69,48 @@
 <script>
 import {languages, popupTypes} from './constants';
 import Timetable from './components/Timetable';
+import Popup from './components/Popup';
 
 export default {
     name: 'app',
     components: {
         Timetable,
+        Popup,
     },
     data: function() {
       return {
         popupTypes,
         presentations: this.$t('presentations'),
+        isPopupShown: false,
+        selectedPresentationId: null,
+        popupType: null,
       };
     },
     methods: {
         toggleLang: function() {
           this.$i18n.locale = (this.$i18n.locale === languages.JA) ? languages.EN : languages.JA;
+        },
+        handleClickPresentationContent: function(presentationId) {
+            this.isPopupShown = true;
+            this.selectedPresentationId = presentationId;
+            this.popupType = popupTypes.PRESENTATION_CONTENTS;
+        },
+        handleClickPresentationPresenter: function(presentationId) {
+            this.isPopupShown = true;
+            this.selectedPresentationId = presentationId;
+            this.popupType = popupTypes.PRESENTATION_PRESENTER;
+        },
+        handleClickPopupCloseButton: function() {
+            this.isPopupShown = false;
+        },
+        findPresentation: function(presentationId) {
+            for (let i = 0; i < this.presentations.length; i++) {
+              const presentation = this.presentations[i];
+              if (presentation.id === presentationId) {
+                return presentation;
+              }
+            }
+            return null;
         },
     }
 }

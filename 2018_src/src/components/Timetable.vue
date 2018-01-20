@@ -6,11 +6,11 @@
         <div id="timetable_app">
             <ul class="timetable">
                 <li v-for="presentation of presentations">
-                    <div class="presentation" @click="show(presentation, popupTypes.PRESENTATION_CONTENTS)">
+                    <div class="presentation" @click="clickContentPopup(presentation.id)">
                         <strong>{{presentation.presentation_name}}</strong>
                         <span>{{presentation.time}}</span>
                     </div>
-                    <div class="presenter" @click="show(presentation, popupTypes.PRESENTATION_PRESENTER)">
+                    <div class="presenter" @click="clickPresenterPopup(presentation.id)">
                         <img :src="presentation.img">
                         <p>
                             <span v-if="presentation.company" class="company">{{presentation.company}}</span>
@@ -25,14 +25,6 @@
                     </div>
                 </li>
             </ul>
-            <Popup
-              v-if="isPopupShown"
-              :presentation="presentation"
-              :isPopupShown="isPopupShown"
-              :popupType="popupType"
-              :popupTypes="popupTypes"
-              @close:popup="close"
-            ></Popup>
             <!-- <a href="static/pdf/2018timetable.pdf" target="_blank" class="pdf-download-btn">{{ $t("pdf_download") }}</a> -->
         </div>
         <a class="apply-btn" href="https://hakat.connpass.com/event/76855" target="_blank">{{ $t("btn") }}</a>
@@ -49,30 +41,18 @@
 </template>
 
 <script>
-import Popup from './Popup'
-
 export default {
     name: 'timetable',
-    components: {
-        Popup,
-    },
-    data: function() {
-    	return {
-	        isPopupShown: false,
-	        presentation: null,
-          popupType: null,
-	    };
-	  },
-    props: ['popupTypes', 'presentations'],
+    props: [
+      'presentations',
+    ],
     methods: {
-        show: function(presentation, popupType) {
-            this.isPopupShown = true;
-            this.presentation = presentation;
-            this.popupType = popupType;
+        clickContentPopup: function(presentationId) {
+          this.$emit('click:presentation:content', presentationId);
         },
-        close: function() {
-            this.isPopupShown = false;
+        clickPresenterPopup: function(presentationId) {
+          this.$emit('click:presentation:presenter', presentationId);
         },
-    }
+    },
 }
 </script>
