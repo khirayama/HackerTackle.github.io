@@ -8,7 +8,7 @@
                 <i @click="close" class="popup-close"></i>
             </div>
             <!-- PRESENTER POPUP -->
-            <div class="presenter-detail" v-if="popupTypes === popupTypes.PRESENTATION_PRESENTER" @click.stop="">
+            <div class="presenter-detail" v-if="popupType === popupTypes.PRESENTATION_PRESENTER" @click.stop="">
                 <div class="popup-header">
                     <img :src="presentation.img" :alt="presentation.presenter_name">
                     <h1>{{ presentation.presenter_name }}</h1>
